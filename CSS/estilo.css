@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+.contenido{
+    width: 90%;
+    margin: auto;
+}
+
+body {
+    background-image: url(../img/fondomain1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'figtree', sans-serif;
+    font-size: large;
+
+}
+
+.nav-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-centro li{
+    margin: 10px;
+}
+
+.nav-izquierda{
+    height: 60px;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    margin-top: 100px;
+}
+
+hr{
+    margin-top: 100px;
+}
+
+.cuerpo{
+    text-align: center;
+    color: red;
+}
+
+.TRAILER{
+    text-align: center;
+    margin-top: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+.pie{
+    color: red;
+    text-align: left;
+}
+
+a{
+    color: white;
+}
+
+.logos{
+    text-align: left;
+}
+

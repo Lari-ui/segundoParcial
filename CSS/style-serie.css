@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+.cuerpo-serie{
+    text-align: center;
+    color: red;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-image: url(../img/fondomain1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'figtree', sans-serif;
+    font-size: medium;
+}
+
+.nav-principalSerie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-centroSerie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-centroSerie li{
+    margin: 10px;
+}
+
+.nav-serieizquierda{
+    height: 60px;
+}
+
+.mainserie{
+    color: red;
+    padding: 150px;
+}
+
+.pieSerie{
+    color: red;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.logos{
+    text-align: left;
+}
+
+a{
+    color: white;
+}

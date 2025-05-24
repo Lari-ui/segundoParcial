@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+.cuerpo-elenco{
+    text-align: center;
+    color: chartreuse;
+}
+
+.contenido-elenco{
+    width: 90%;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-image: url(../img/fondomain1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'figtree', sans-serif;
+    font-size: large;
+}
+
+.nav-principal-elenco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-centro-elenco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-centro-elenco li{
+    margin: 10px;
+}
+
+.nav-izquierda-elenco{
+    height: 60px;
+}
+
+.cuerpo-elenco{
+    color: red;
+    text-align: left;
+    padding: 100px;
+}
+
+.pie-elenco{
+    color: red;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.logos-elenco{
+    text-align: left;
+}
+
+a{
+    color: white;
+}

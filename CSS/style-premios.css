@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+.contenido-premios{
+    text-align: center;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-image: url(../img/fondomain1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'figtree', sans-serif;
+    font-size: medium;
+}
+
+.nav-principal-premios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-centro-premios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-centro-premios li{
+    margin: 10px;
+}
+
+.nav-izquierda-premios{
+    height: 60px;
+}
+
+.cuerpo-premios{
+    color: red;
+    padding: 150px;
+}
+
+.pie-premios{
+    color: red;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.logos-premios{
+    text-align: left;
+}
+
+a{
+    color: white;
+}

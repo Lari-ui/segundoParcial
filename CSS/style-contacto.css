@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+.contenido-contacto{
+    text-align: center;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-image: url(../img/fondomain1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'figtree', sans-serif;
+    font-size: medium;
+}
+
+.nav-principal-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-centro-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-centro-contacto li{
+    margin: 10px;
+}
+
+.nav-izquierda-contacto{
+    height: 60px;
+}
+
+.cuerpo-contacto{
+    color: red;
+    padding: 150px;
+    text-align: center;
+}
+
+h1{
+    color: red;
+}
+
+.pie-contacto{
+    color: red;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.logos-contacto{
+    text-align: left;
+}
+
+a{
+    color: white;
+}

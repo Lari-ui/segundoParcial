@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+.contenido-temporadas{
+    width: 90%;
+    margin: auto;
+}
+
+body {
+    background-image: url(../img/fondomain1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'figtree', sans-serif;
+    font-size: medium;
+
+}
+
+.nav-principal-temporadas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-centro-temporadas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-centro-temporadas li{
+    margin: 10px;
+}
+
+.nav-izquierda-temporadas{
+    height: 60px;
+}
+
+ul{
+    list-style: none;
+}
+
+.cuerpo-temporadas{
+    text-align: left;
+    color: red;
+    padding: 100px;
+}
+
+.pie-temporadas{
+    color: red;
+    text-align: left;
+    margin-top: 100px;
+}
+
+a{
+    color: white;
+}
+
+.logos-temporadas{
+    text-align: left;
+}
