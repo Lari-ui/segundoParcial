@@ -47,6 +47,10 @@ body{
     background-color: #0000008c;
 }
 
+.cuerpo-contacto p{
+    font-size: large;
+}
+
 h1{
     color: red;
 }
