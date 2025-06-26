@@ -5,6 +5,7 @@
 .cuerpo-serie{
     text-align: center;
     color: red;
+    background-color: #0000008c;
 }
 
 ul{
@@ -20,9 +21,7 @@ body{
     font-size: medium;
 }
 
-.mainserie p{
-    background-color: #00000091;
-}
+
 
 .nav-principalSerie{
     display: flex;
