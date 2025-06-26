@@ -59,7 +59,6 @@ body{
 .elenco{
     display: flex;
     gap: 30px;
-    background-color: #0000008c;
 }
 
 .salma{
