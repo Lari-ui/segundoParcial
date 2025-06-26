@@ -58,7 +58,7 @@ body{
 
 .elenco{
     display: flex;
-    gap: 50px;
+    gap: 30px;
     background-color: #0000008c;
 }
 
@@ -67,23 +67,23 @@ body{
 }
 
 .zazie{
-    margin-left: 55px;
+    margin-left: 0px;
 }
 
 .aron{
-    margin-left: 40px;
+    margin-left: -10px;
 }
 
 .kate{
-    margin-left: 50px;
+    margin-left: -10px;
 }
 
 .josh{
-    margin-left: -40px;
+    margin-left: -50px;
 }
 
 .anjana{
-    margin-left: -25px;
+    margin-left: -50px;
 }
 
 .pie-elenco{
