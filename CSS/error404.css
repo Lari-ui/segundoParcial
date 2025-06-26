@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.contenido{
+    padding: 300px;
+    background-color: black;
+    color: red;
+    font-family: 'figtree', sans-serif;
+    text-align: center;
+}
+
+.Inicio {
+    display: inline-block;
+    background-color: red;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-left: 0px;
+
+}
+
+.Inicio:hover {
+    background-color:firebrick
+}

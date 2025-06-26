@@ -20,6 +20,10 @@ body{
     font-size: medium;
 }
 
+.mainserie p{
+    background-color: #00000091;
+}
+
 .nav-principalSerie{
     display: flex;
     align-items: center;
@@ -42,7 +46,7 @@ body{
 
 .mainserie{
     color: red;
-    padding: 150px;
+    padding: 100px;
 }
 
 .pieSerie{
