@@ -5,7 +5,7 @@
 .contenido-contacto{
     text-align: center;
     color: white;
-    background-color: #0000008c;
+
 }
 
 ul{
@@ -19,6 +19,7 @@ body{
     background-position: center;
     font-family: 'figtree', sans-serif;
     font-size: medium;
+    background-color: #0000008c;
 }
 
 .nav-principal-contacto{
