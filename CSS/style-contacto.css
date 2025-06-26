@@ -5,7 +5,6 @@
 .contenido-contacto{
     text-align: center;
     color: white;
-
 }
 
 ul{
@@ -19,7 +18,6 @@ body{
     background-position: center;
     font-family: 'figtree', sans-serif;
     font-size: medium;
-    background-color: #0000008c;
 }
 
 .nav-principal-contacto{
@@ -46,6 +44,7 @@ body{
     color: red;
     padding: 150px;
     text-align: center;
+    background-color: #0000008c;
 }
 
 h1{
