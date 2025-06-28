@@ -30,12 +30,11 @@ body {
     color: white;
 }
 
-.nav-centro:hover {
-    background-color: red
-}
+
 
 .nav-centro li{
     margin: 10px;
+    background-color: red
 }
 
 .nav-izquierda{
