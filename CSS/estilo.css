@@ -27,6 +27,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+}
+
+.nav-centro:hover {
+    background-color: red
 }
 
 .nav-centro li{
