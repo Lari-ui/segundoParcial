@@ -64,3 +64,100 @@ body{
 a{
     color: white;
 }
+
+/* DISENO RESPONSIVE*/
+
+/* RESPONSIVE PARA TABLETS - 768px */
+@media screen and (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        font-size: small;
+    }
+    
+    .nav-principalSerie {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .nav-centroSerie {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+    
+    .nav-centroSerie li {
+        margin: 8px 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .nav-serieizquierda {
+        height: 50px;
+        margin-bottom: 15px;
+    }
+    
+    .mainserie {
+        padding: 60px 30px;
+        margin: 15px;
+    }
+    
+    .pieSerie {
+        margin-top: 60px;
+        padding: 0 30px;
+        text-align: center;
+    }
+    
+    .logos {
+        text-align: center;
+        padding: 0 30px;
+    }
+}
+
+/* RESPONSIVE PARA MÓVILES - 560px */
+@media screen and (max-width: 560px) {
+    body {
+        background-attachment: scroll;
+        font-size: small;
+    }
+    
+    .nav-principalSerie {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .nav-centroSerie {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    
+    .nav-centroSerie li {
+        margin: 5px 0;
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .nav-serieizquierda {
+        height: 45px;
+        margin-bottom: 10px;
+    }
+    
+    .mainserie {
+        padding: 40px 20px;
+        margin: 10px;
+        font-size: 14px;
+    }
+    
+    .pieSerie {
+        margin-top: 40px;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    .logos {
+        text-align: center;
+        padding: 0 20px;
+    }
+}
