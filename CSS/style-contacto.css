@@ -228,7 +228,7 @@ a{
     }
     
     .logos-contacto img {
-        max-width: 120px;
+        max-width: 80px;
         height: auto;
         margin: 10px;
     }
@@ -352,35 +352,5 @@ a{
         touch-action: manipulation;
     }
     
-    .btn-enviar:hover,
-    .btn-enviar:active {
-        background-color: #cc0000;
-    }
     
-    /* Optimización para campos de formulario en móvil */
-    .form-grupo input:focus,
-    .form-grupo textarea:focus,
-    .form-grupo select:focus {
-        outline: none;
-        border-color: #ff0000;
-        box-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-    }
-    
-    .pie-contacto {
-        margin-top: 40px;
-        padding: 0 20px;
-        text-align: center;
-        font-size: 12px;
-    }
-    
-    .logos-contacto {
-        text-align: center;
-        padding: 0 20px;
-    }
-    
-    .logos-contacto img {
-        max-width: 80px;
-        height: auto;
-        margin: 8px;
-    }
-}
+
