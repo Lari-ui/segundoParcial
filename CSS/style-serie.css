@@ -47,7 +47,7 @@ body{
 .mainserie{
     color: red;
     padding: 100px;
-    backdrop-filter: blur 3px;
+    backdrop-filter: blur (10px);
 }
 
 .pieSerie{
