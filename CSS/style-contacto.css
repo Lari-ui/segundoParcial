@@ -45,7 +45,7 @@ body{
     color: red;
     padding: 100px;
     text-align: center;
-    background-color: #0000008c;
+    background-color: #ff000038;
 }
 
 .cuerpo-contacto p{
@@ -115,12 +115,10 @@ a{
     }
     
     .nav-principal-contacto {
-        flex-direction: column;
         padding: 20px;
     }
     
     .nav-centro-contacto {
-        flex-wrap: wrap;
         justify-content: center;
         gap: 15px;
         width: 100%;
