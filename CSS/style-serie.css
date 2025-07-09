@@ -47,7 +47,7 @@ body{
 .mainserie{
     color: red;
     padding: 100px;
-    background-color: red;
+    background-color: #ff000038;
     backdrop-filter: blur (10px);
 }
 
