@@ -148,12 +148,14 @@ a{
     .salma {
         padding: 20px;
         width: 100%;
+        height: auto;
         text-align: center;
     }
     
     .zazie, .aron, .kate, .josh, .anjana {
         padding: 15px;
         width: 40%;
+        height: auto;
         text-align: center;
     }
     
@@ -223,6 +225,7 @@ a{
     .salma {
         /*padding: 15px;*/
         width: 100%;
+        height: auto;
         text-align: center;
         font-size: 13px;
     }
@@ -230,6 +233,7 @@ a{
     .zazie, .aron, .kate, .josh, .anjana {
        /* padding: 10px;*/
         width: 40%;
+        height: auto;
         text-align: center;
         font-size: 13px;
     }
