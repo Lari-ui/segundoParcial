@@ -50,7 +50,7 @@ body{
     color: red;
     text-align: left;
     padding: 100px;
-    background-color: #0000008c;  
+    background-color: #ff000038;  
 }
 
 .cuerpo-elenco h1{
@@ -147,7 +147,7 @@ a{
     
     .salma {
         padding: 20px;
-        width: 150%;
+        width: 300%;
         height: auto;
         text-align: center;
     }
