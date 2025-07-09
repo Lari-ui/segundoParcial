@@ -5,6 +5,7 @@
 .cuerpo-serie{
     text-align: center;
     color: red;
+
 }
 
 ul{
@@ -18,6 +19,7 @@ body{
     background-position: center;
     font-family: 'figtree', sans-serif;
     font-size: medium;
+    background-attachment: fixed;
 }
 
 
