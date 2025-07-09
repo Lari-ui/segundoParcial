@@ -99,3 +99,150 @@ body{
 a{
     color: white;
 }
+
+/* DISENO RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        font-size: medium;
+    }
+    
+    .contenido-elenco {
+        width: 95%;
+    }
+    
+    .nav-principal-elenco {
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+    
+    .nav-centro-elenco {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+    
+    .nav-centro-elenco li {
+        margin: 8px 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .nav-izquierda-elenco {
+        height: 50px;
+        margin-bottom: 15px;
+    }
+    
+    .cuerpo-elenco {
+        padding: 60px 30px;
+        margin: 0 15px;
+    }
+    
+    .elenco {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .salma {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .zazie, .aron, .kate, .josh, .anjana {
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .pie-elenco {
+        margin-top: 60px;
+        padding: 0 30px;
+        text-align: center;
+    }
+    
+    .logos-elenco {
+        text-align: center;
+        padding: 0 30px;
+    }
+}
+
+/* MÓVIL - 560px y menos */
+@media screen and (max-width: 560px) {
+    body {
+        background-attachment: scroll;
+        font-size: small;
+    }
+    
+    .contenido-elenco {
+        width: 98%;
+    }
+    
+    .nav-principal-elenco {
+        flex-direction: column;
+        padding: 10px 15px;
+    }
+    
+    .nav-centro-elenco {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    
+    .nav-centro-elenco li {
+        margin: 5px 0;
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .nav-izquierda-elenco {
+        height: 45px;
+        margin-bottom: 10px;
+    }
+    
+    .cuerpo-elenco {
+        padding: 40px 20px;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+    
+    .cuerpo-elenco h1 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .elenco {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .salma {
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    .zazie, .aron, .kate, .josh, .anjana {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    .pie-elenco {
+        margin-top: 40px;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .logos-elenco {
+        text-align: center;
+        padding: 0 20px;
+    }
+}
