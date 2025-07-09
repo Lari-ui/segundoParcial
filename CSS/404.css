@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(../img/fondomain1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'figtree', sans-serif;
+    font-size: large;
+
+}
 
 .contenido{
     padding: 300px;
