@@ -60,3 +60,147 @@ body{
 a{
     color: white;
 }
+
+
+/* DISENO RESPONSIVE */
+@media screen and (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        font-size: small;
+    }
+    
+    .contenido-premios {
+        width: 95%;
+        margin: 0 auto;
+        max-width: 768px;
+    }
+    
+    .nav-principal-premios {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .nav-centro-premios {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .nav-centro-premios li {
+        margin: 8px 12px;
+        text-align: center;
+    }
+    
+    .nav-izquierda-premios {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .nav-izquierda-premios img {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+    }
+    
+    .cuerpo-premios {
+        padding: 60px 30px;
+        margin: 0 15px;
+        border-radius: 10px;
+    }
+    
+    .cuerpo-premios h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .cuerpo-premios h2 {
+        font-size: 20px;
+        margin: 25px 0 15px 0;
+        text-align: center;
+    }
+    
+    .cuerpo-premios h3 {
+        font-size: 18px;
+        margin: 20px 0 10px 0;
+        text-align: center;
+    }
+    
+    .cuerpo-premios p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 560px) {
+    body {
+        background-attachment: scroll;
+        font-size: small;
+    }
+    
+    .contenido-premios {
+        width: 98%;
+        margin: 0 auto;
+    }
+    
+    .nav-principal-premios {
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+    
+    .nav-centro-premios {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .nav-centro-premios li {
+        margin: 5px 0;
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .nav-izquierda-premios {
+        height: 45px;
+        margin-bottom: 15px;
+    }
+    
+    .nav-izquierda-premios img {
+        width: 100%;
+        height: auto;
+        max-width: 150px;
+    }
+    
+    .cuerpo-premios {
+        padding: 40px 20px;
+        margin: 0 10px;
+        border-radius: 8px;
+    }
+    
+    .cuerpo-premios h1 {
+        font-size: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    
+    .cuerpo-premios h2 {
+        font-size: 18px;
+        margin: 20px 0 12px 0;
+        text-align: center;
+    }
+    
+    .cuerpo-premios h3 {
+        font-size: 16px;
+        margin: 15px 0 8px 0;
+        text-align: center;
+    }
+    
+    .cuerpo-premios p {
+        font-size: 13px;
+        line-height: 1.4;
+        margin: 12px 0;
+        text-align: center;
+    }
