@@ -154,7 +154,7 @@ a{
     
     .zazie, .aron, .kate, .josh, .anjana {
         padding: 15px;
-        width: 40%;
+        width: 10%;
         height: auto;
         text-align: center;
     }
@@ -232,7 +232,7 @@ a{
     
     .zazie, .aron, .kate, .josh, .anjana {
        /* padding: 10px;*/
-        width: 40%;
+        width: 10%;
         height: auto;
         text-align: center;
         font-size: 13px;

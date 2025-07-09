@@ -45,7 +45,7 @@ ul{
     text-align: left;
     color: red;
     padding: 100px;
-    background-color: #00000085;
+    background-color: #ff000038;
 }
 
 .pie-temporadas{
@@ -61,3 +61,191 @@ a{
 .logos-temporadas{
     text-align: left;
 }
+
+/* DISENO RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        font-size: small;
+    }
+    
+    .contenido-temporadas {
+        width: 95%;
+        max-width: 768px;
+    }
+    
+    .nav-principal-temporadas {
+        padding: 20px;
+    }
+    
+    .nav-centro-temporadas {
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .nav-centro-temporadas li {
+        margin: 8px 12px;
+        text-align: center;
+    }
+    
+    .nav-izquierda-temporadas {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .cuerpo-temporadas {
+        padding: 60px 30px;
+        margin: 0 15px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .cuerpo-temporadas h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .cuerpo-temporadas h2 {
+        font-size: 20px;
+        margin: 25px 0 15px 0;
+        text-align: center;
+    }
+    
+    .cuerpo-temporadas p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 15px 0;
+        text-align: left;
+    }
+
+    .cuerpo-temporadas ul {
+        padding: 0;
+        margin: 20px 0;
+    }
+    
+    .cuerpo-temporadas li {
+        margin: 15px 0;
+        padding: 15px;
+        background-color: rgba(255,255,255,0.1);
+        border-radius: 8px;
+        text-align: left;
+    }
+    
+    .pie-temporadas {
+        margin-top: 60px;
+        padding: 0 30px;
+        text-align: center;
+    }
+    
+    .logos-temporadas {
+        text-align: center;
+        padding: 0 30px;
+    }
+    
+    .logos-temporadas img {
+        max-width: 120px;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    body {
+        background-attachment: scroll;
+        font-size: small;
+    }
+    
+    .contenido-temporadas {
+        width: 98%;
+    }
+    
+    .nav-principal-temporadas {
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+    
+    .nav-centro-temporadas {
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .nav-centro-temporadas li {
+        margin: 5px 0;
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .nav-izquierda-temporadas {
+        height: 45px;
+        margin-bottom: 15px;
+    }
+    
+    .nav-izquierda-temporadas img {
+        width: 100%;
+        height: auto;
+        max-width: 150px;
+    }
+    
+    .cuerpo-temporadas {
+        padding: 40px 20px;
+        margin: 0 10px;
+        border-radius: 8px;
+        text-align: center;
+    }
+    
+    .cuerpo-temporadas h1 {
+        font-size: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    
+    .cuerpo-temporadas h2 {
+        font-size: 18px;
+        margin: 20px 0 12px 0;
+        text-align: center;
+    }
+    
+    .cuerpo-temporadas p {
+        font-size: 13px;
+        line-height: 1.4;
+        margin: 12px 0;
+        text-align: left;
+    }
+
+  .cuerpo-temporadas ul {
+        padding: 0;
+        margin: 15px 0;
+    }
+    
+    .cuerpo-temporadas li {
+        margin: 10px 0;
+        padding: 12px;
+        background-color: rgba(255,255,255,0.1);
+        border-radius: 6px;
+        text-align: left;
+        font-size: 12px;
+    }
+    
+    .pie-temporadas {
+        margin-top: 40px;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .logos-temporadas {
+        text-align: center;
+        padding: 0 20px;
+    }
+    
+    .logos-temporadas img {
+        max-width: 80px;
+        height: auto;
+        margin: 8px;
+    }
+}    
