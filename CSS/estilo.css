@@ -14,6 +14,7 @@ body {
     background-position: center;
     font-family: 'figtree', sans-serif;
     font-size: large;
+    background-attachment: fixed;
 
 }
 
