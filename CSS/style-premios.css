@@ -81,7 +81,6 @@ a{
     }
     
     .nav-centro-premios {
-        flex-wrap: wrap;
         justify-content: center;
         gap: 15px;
         width: 100%;
