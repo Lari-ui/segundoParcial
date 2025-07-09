@@ -96,3 +96,293 @@ a{
             border-radius: 5px;
 
         }
+
+
+/* DISENO RESPONSIVE */
+
+/* TABLET */
+
+@media screen and (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        font-size: small;
+    }
+    
+    .contenido-contacto {
+        width: 95%;
+        margin: 0 auto;
+        max-width: 768px;
+    }
+    
+    .nav-principal-contacto {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .nav-centro-contacto {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .nav-centro-contacto li {
+        margin: 8px 12px;
+        text-align: center;
+    }
+    
+    .nav-izquierda-contacto {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .nav-izquierda-contacto img {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+    }
+    
+    .cuerpo-contacto {
+        padding: 60px 30px;
+        margin: 0 15px;
+        border-radius: 10px;
+    }
+    
+    .cuerpo-contacto h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .cuerpo-contacto p {
+        font-size: medium;
+        line-height: 1.5;
+        margin: 15px 0;
+    }
+    
+    /* Formulario responsive para tablet */
+    .formulario-contacto {
+        max-width: 90%;
+        margin: 25px auto;
+        padding: 25px;
+        font-size: medium;
+        border-radius: 8px;
+    }
+    
+    .form-grupo {
+        margin-bottom: 18px;
+        font-size: medium;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    
+    .form-grupo input,
+    .form-grupo textarea,
+    .form-grupo select {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+        border: 2px solid #555;
+        border-radius: 5px;
+        background-color: #222;
+        color: white;
+        margin-top: 5px;
+    }
+    
+    .form-grupo label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: white;
+    }
+    
+    .form-grupo textarea {
+        min-height: 100px;
+        resize: vertical;
+    }
+    
+    .btn-enviar {
+        width: 100%;
+        padding: 12px;
+        background-color: #ff0000;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background-color 0.3s;
+    }
+    
+    .btn-enviar:hover {
+        background-color: #cc0000;
+    }
+    
+    .pie-contacto {
+        margin-top: 60px;
+        padding: 0 30px;
+        text-align: center;
+    }
+    
+    .logos-contacto {
+        text-align: center;
+        padding: 0 30px;
+    }
+    
+    .logos-contacto img {
+        max-width: 120px;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+/* MÓVIL - 560px y menos */
+@media screen and (max-width: 560px) {
+    body {
+        background-attachment: scroll;
+        font-size: small;
+    }
+    
+    .contenido-contacto {
+        width: 98%;
+        margin: 0 auto;
+    }
+    
+    .nav-principal-contacto {
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+    
+    .nav-centro-contacto {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .nav-centro-contacto li {
+        margin: 5px 0;
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .nav-izquierda-contacto {
+        height: 45px;
+        margin-bottom: 15px;
+    }
+    
+    .nav-izquierda-contacto img {
+        width: 100%;
+        height: auto;
+        max-width: 150px;
+    }
+    
+    .cuerpo-contacto {
+        padding: 40px 20px;
+        margin: 0 10px;
+        border-radius: 8px;
+    }
+    
+    .cuerpo-contacto h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .cuerpo-contacto p {
+        font-size: small;
+        line-height: 1.4;
+        margin: 12px 0;
+    }
+    
+    /* Formulario responsive para móvil */
+    .formulario-contacto {
+        max-width: 95%;
+        margin: 20px auto;
+        padding: 20px;
+        font-size: small;
+        border-radius: 6px;
+    }
+    
+    .form-grupo {
+        margin-bottom: 15px;
+        font-size: small;
+        padding: 8px;
+        border-radius: 3px;
+    }
+    
+    .form-grupo input,
+    .form-grupo textarea,
+    .form-grupo select {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 2px solid #555;
+        border-radius: 4px;
+        background-color: #222;
+        color: white;
+        margin-top: 3px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    
+    .form-grupo label {
+        display: block;
+        margin-bottom: 3px;
+        font-size: 13px;
+        color: white;
+        font-weight: normal;
+    }
+    
+    .form-grupo textarea {
+        min-height: 80px;
+        resize: vertical;
+    }
+    
+    .btn-enviar {
+        width: 100%;
+        padding: 14px;
+        background-color: #ff0000;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 15px;
+        transition: background-color 0.3s;
+        touch-action: manipulation;
+    }
+    
+    .btn-enviar:hover,
+    .btn-enviar:active {
+        background-color: #cc0000;
+    }
+    
+    /* Optimización para campos de formulario en móvil */
+    .form-grupo input:focus,
+    .form-grupo textarea:focus,
+    .form-grupo select:focus {
+        outline: none;
+        border-color: #ff0000;
+        box-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+    }
+    
+    .pie-contacto {
+        margin-top: 40px;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .logos-contacto {
+        text-align: center;
+        padding: 0 20px;
+    }
+    
+    .logos-contacto img {
+        max-width: 80px;
+        height: auto;
+        margin: 8px;
+    }
+}
