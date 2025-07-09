@@ -75,12 +75,12 @@ a{
     }
     
     .nav-principalSerie {
-        flex-direction: column;
+
         padding: 15px;
     }
     
     .nav-centroSerie {
-        flex-direction: column;
+
         width: 100%;
         gap: 15px;
     }
