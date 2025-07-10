@@ -146,8 +146,7 @@ a{
     }
     
     .logos-temporadas img {
-        max-width: 100px;
-        height: auto;
+        max-width: 80px;
         margin: 10px;
     }
 }
@@ -243,8 +242,7 @@ a{
     }
     
     .logos-temporadas img {
-        max-width: 100px;
-        height: auto;
+        max-width: 80px;
         margin: 8px;
     }
 }    
