@@ -162,7 +162,7 @@ a{
     }
     
     .nav-principal-temporadas {
-        flex-wrap: wrap;
+        flex-direction: column;
         padding: 15px 10px;
     }
     
