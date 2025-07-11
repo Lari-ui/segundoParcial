@@ -35,3 +35,54 @@ body {
 .Inicio:hover {
     background-color:firebrick
 }
+
+/* DISENO RESPONSIVE */
+
+/* Tablet - 768px y menor */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: medium;
+        background-attachment: scroll; 
+    }
+    
+    .contenido {
+        padding: 100px 50px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Inicio {
+        padding: 12px 25px;
+        font-size: medium;
+        margin-top: 20px;
+        max-width: 200px;
+    }
+}
+
+/* Celular - 560px y menor */
+@media screen and (max-width: 560px) {
+    body {
+        font-size: small;
+    }
+    
+    .contenido {
+        padding: 50px 20px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Inicio {
+        padding: 10px 20px;
+        font-size: small;
+        margin-top: 15px;
+        max-width: 150px;
+        border-radius: 20px;
+    }
+}
+
