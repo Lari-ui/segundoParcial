@@ -199,7 +199,7 @@ a{
     } */
     
     .hamburger {
-        display: flex;
+        display: block;
         cursor: pointer;
         color: white;
         font-size: 24px;
@@ -221,7 +221,7 @@ a{
     }
 
     nav {
-    background: #444;
+    background: #ff000038;
     color: #fff;
     text-align: center;
     }
@@ -239,7 +239,7 @@ a{
     }
 
     nav ul li :hover {
-    background-color: #d3d3d3;
+    background-color: #ff000038;
     }
 
     nav ul li a {
