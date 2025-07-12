@@ -270,9 +270,9 @@ a{
         justify-content: left;
     }
     
-    .nav-menu{
+    .nav-menu ul{
         flex-direction: column;
-        justify-content: right;
+        justify-content: left;
     }
 
     .nav-izquierda {
