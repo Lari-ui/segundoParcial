@@ -211,13 +211,13 @@ a{
     .nav-centro {
       /*  flex-direction: column;*/
         gap: 10px;
-        width: 100%;
+        width: 80%;
     }
     
     .nav-centro li {
         margin: 5px 0;
         text-align: center;
-        width: 100%;
+        width: 80%;
         font-size: 14px;
     }
     
