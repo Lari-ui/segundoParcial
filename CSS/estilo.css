@@ -218,7 +218,7 @@ a{
         width: 100%;
     }
     
-.menu.active ul{
+.nav-centro.active ul{
     display: flex;
 }
 
