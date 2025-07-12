@@ -273,6 +273,7 @@ a{
     
     .nav-menu{
         flex-direction: column;
+        justify-content: center;
     }
 
     .nav-izquierda {
