@@ -270,7 +270,7 @@ a{
         justify-content: left;
     }
     
-.nav-centro .burger{
+.nav label{
     text-align: right;
 }
 
