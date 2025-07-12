@@ -211,7 +211,7 @@ a{
     .nav-centro {
       /*  flex-direction: column;*/
         gap: 10px;
-        width: 80%;
+        width: 100%;
     }
     
     .nav-centro li {
