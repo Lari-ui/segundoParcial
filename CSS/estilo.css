@@ -221,7 +221,7 @@ a{
         font-size: large;
     }
 
-    .nav-menu li {
+   /* .nav-menu li {
         text-align: left;
         margin: 5px 0;
         display: block;
@@ -253,7 +253,7 @@ a{
     color: #fff;
     text-decoration: none;
     display: flex;
-    }
+    } */
 
     body {
         background-attachment: scroll;
