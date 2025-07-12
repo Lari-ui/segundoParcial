@@ -264,22 +264,11 @@ a{
         width: 98%;
     }
     
-    .nav-principal {
-        flex-direction: column;
-        padding: 15px 10px;
-    }
-    
     .nav-centro {
         flex-direction: column;
         gap: 10px;
         width: 100%;
-        text-align: left;
-    }
-    
-    .nav-centro li {
-        margin: 5px 0;
-        width: 50%;
-        font-size: 14px;
+        justify-content: left;
     }
     
     .nav-izquierda {
@@ -315,11 +304,6 @@ a{
     .cuerpo h2 {
         font-size: 18px;
         margin: 20px 0;
-    }
-    
-    .cuerpo h3 {
-        font-size: 16px;
-        margin: 15px 0;
     }
     
     .cuerpo p {
