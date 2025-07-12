@@ -209,7 +209,7 @@ a{
     }
     
     .nav-centro {
-        flex-direction: column;
+      /*  flex-direction: column;*/
         gap: 10px;
         width: 100%;
     }
