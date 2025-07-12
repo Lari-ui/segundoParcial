@@ -198,20 +198,30 @@ a{
         display: none; /* Ocultamos el menú 
     } */
     
-        #hamburger:target{
+        #panelHamburguesa:target{
             right: 0;
         }
 
-        #hamburger:target ~ header nav #abrir {
+        #panelHamburguesa:target ~ header nav #abrir {
             display: none;
         }
 
-        #hamburger:target ~ header nav #cerrar {
+        #panelHamburguesa:target ~ header nav #cerrar {
             display: inline-block;
         }
 
         #cerrar{
             display: none;
+        }
+
+         #panelHamburguesa{
+            height: 100vh;
+            width: 400px;
+            position: fixed;
+            top: 10vh;
+            right: -1000px;
+            transition: right 2s linear;
+
         }
 
     .hamburger {
