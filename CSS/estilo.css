@@ -203,6 +203,13 @@ a{
         flex-direction: column;
     }
 
+    .nav-toggle {
+        display: block;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+    }
+
     .nav-centro li {
         text-align: center;
         margin: 5px 0;
