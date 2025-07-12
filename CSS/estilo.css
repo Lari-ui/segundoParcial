@@ -18,6 +18,10 @@ body {
 
 }
 
+.nav-toggle {
+    display: none; /* Ocultamos el menú */
+} 
+
 .nav-principal{
     display: flex;
     align-items: center;
@@ -87,6 +91,10 @@ a{
         font-size: medium;
     }
     
+    .nav-toggle {
+        display: none; /* Ocultamos el menú */
+    } 
+
     .contenido {
         width: 95%;
         max-width: 768px;
@@ -196,7 +204,7 @@ a{
         display: none; /* Ocultamos el menú */
     } 
 
-  #nav-toggle:active + nav-menu ul{
+  #nav-toggle:checked + nav-menu ul{
     display: flex;
     right: 0;
   }
