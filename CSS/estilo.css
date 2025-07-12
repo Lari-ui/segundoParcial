@@ -222,7 +222,7 @@ a{
     }
 
     .nav-menu li {
-        text-align: center;
+        text-align: left;
         margin: 5px 0;
     }
 
@@ -272,11 +272,11 @@ a{
         flex-direction: column;
         gap: 10px;
         width: 100%;
+        text-align: left;
     }
     
     .nav-centro li {
         margin: 5px 0;
-        text-align: left;
         width: 50%;
         font-size: 14px;
     }
