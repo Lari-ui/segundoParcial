@@ -200,7 +200,7 @@ a{
 
 @media screen and (max-width: 560px) {
 
-    .nav-menu {
+    .nav-menu ul{
         display: none; /* Ocultamos el menú */
     } 
 
