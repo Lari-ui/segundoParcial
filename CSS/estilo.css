@@ -198,6 +198,22 @@ a{
         display: none; /* Ocultamos el menú 
     } */
     
+        #hamburger:target{
+            right: 0;
+        }
+
+        #hamburger:target ~ header nav #abrir {
+            display: none;
+        }
+
+        #hamburger:target ~ header nav #cerrar {
+            display: inline-block;
+        }
+
+        #cerrar{
+            display: none;
+        }
+
     .hamburger {
         display: block;
         cursor: pointer;
