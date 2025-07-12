@@ -199,7 +199,7 @@ a{
     }
     
     .hamburger {
-        display: block;
+        display: flex;
         cursor: pointer;
         color: white;
         font-size: 24px;
