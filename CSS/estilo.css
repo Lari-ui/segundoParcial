@@ -200,11 +200,11 @@ a{
 
 @media screen and (max-width: 560px) {
 
-    .nav-menu ul{
+    .nav-menu {
         display: none; /* Ocultamos el menú */
     } 
 
-#toggle:checked + .burger + nav-menu ul{
+#toggle:checked + .burger + nav-menu {
     display: flex;
     right: 0;
   }
