@@ -270,9 +270,12 @@ a{
         justify-content: left;
     }
     
-    .nav-menu ul{
+.nav-centro .burger{
+    text-align: right;
+}
+
+    .nav-menu{
         flex-direction: column;
-        justify-content: left;
     }
 
     .nav-izquierda {
