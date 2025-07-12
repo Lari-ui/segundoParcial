@@ -209,7 +209,7 @@ a{
     grid-column: 2;
   }
 
-    .toggle {
+    #toggle {
         display: none;
         cursor: pointer;
         color: white;
