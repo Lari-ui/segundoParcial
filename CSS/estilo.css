@@ -47,7 +47,6 @@ ul{
 
 h1{
     margin-top: 100px;
-    backdrop-filter: blur 3px;
 }
 
 hr{
@@ -122,7 +121,6 @@ a{
     h1 {
         margin-top: 60px;
         font-size: 28px;
-        backdrop-filter: blur(3px);
         padding: 20px;
         text-align: center;
     }
@@ -198,10 +196,12 @@ a{
         display: none; /* Ocultamos el menú */
     } 
 
-    .nav-menu.active {
-        display: flex;
-        flex-direction: column;
-    }
+  
+
+#nav-menu.active{
+    display: flex;
+    flex-direction: column;
+}
 
     .nav-toggle {
         display: block;
@@ -312,7 +312,6 @@ a{
         font-size: 13px;
         line-height: 1.4;
         margin: 12px 0;
-        backdrop-filter: blur(2px);
     }
 
      .TRAILER {
