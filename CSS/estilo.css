@@ -196,7 +196,10 @@ a{
         display: none; /* Ocultamos el menú */
     } 
 
-  
+  #nav-toggle:active + nav-menu ul{
+    display: flex;
+    right: 0;
+  }
 
 #nav-menu.active{
     display: flex;
