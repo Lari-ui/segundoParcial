@@ -218,7 +218,7 @@ a{
 
     .burger{
         height: 100%;
-        font-size: large;
+        font-size: x-large;
     }
 
    /* .nav-menu li {
@@ -271,6 +271,10 @@ a{
         justify-content: left;
     }
     
+    .nav-menu{
+        flex-direction: column;
+    }
+
     .nav-izquierda {
         height: 45px;
         margin-bottom: 15px;
@@ -278,10 +282,9 @@ a{
     }
     
     .nav-izquierda img {
-        width: 100%;
+        width: 800%;
         height: auto;
         max-width: 150px;
-        align-items: left;
     }
     
     h1 {
