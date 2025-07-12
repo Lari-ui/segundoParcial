@@ -194,9 +194,9 @@ a{
 
 @media screen and (max-width: 560px) {
 
-    .nav-centro {
-        display: none; /* Ocultamos el menú */
-    }
+   /* .nav-centro {
+        display: none; /* Ocultamos el menú 
+    } */
     
     .hamburger {
         display: flex;
