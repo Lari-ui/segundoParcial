@@ -218,6 +218,7 @@ a{
 
     .burger{
         height: 100%;
+        font-size: large;
     }
 
     .nav-menu li {
@@ -228,7 +229,7 @@ a{
     nav {
     background: #ff000038;
     color: #fff;
-    text-align: center;
+    text-align: left;
     }
 
     nav ul {
