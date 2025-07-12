@@ -216,6 +216,10 @@ a{
         font-size: 24px;
     }
 
+    .burger{
+        height: 40%;
+    }
+
     .nav-menu li {
         text-align: center;
         margin: 5px 0;
@@ -285,6 +289,7 @@ a{
         width: 100%;
         height: auto;
         max-width: 150px;
+        align-items: left;
     }
     
     h1 {
