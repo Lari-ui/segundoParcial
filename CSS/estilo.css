@@ -18,7 +18,7 @@ body {
 
 }
 
-.nav-toggle {
+.toggle {
     display: none; /* Ocultamos el menú */
 } 
 
@@ -91,7 +91,7 @@ a{
         font-size: medium;
     }
     
-    .nav-toggle {
+    .toggle {
         display: none; /* Ocultamos el menú */
     } 
 
@@ -204,17 +204,12 @@ a{
         display: none; /* Ocultamos el menú */
     } 
 
-.nav-toggle:checked + nav-menu ul{
+#toggle:checked + .burger + nav-menu ul{
     display: flex;
     right: 0;
   }
 
-#nav-menu.active{
-    display: flex;
-    flex-direction: column;
-}
-
-    .nav-toggle {
+    .toggle {
         display: block;
         cursor: pointer;
         color: white;
