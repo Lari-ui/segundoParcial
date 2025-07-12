@@ -79,8 +79,8 @@ a{
     text-align: left;
 }
 
-.oculto {
-  display: none; /* Oculta el botón por defecto */
+#toggle{
+    display: none;
 }
 
        
@@ -106,15 +106,11 @@ a{
         gap: 15px;
         width: 100%;
     }
-    
+
     .nav-centro li {
         margin: 8px 12px;
         text-align: center;
     }
-
-    #miBoton {
-    display: block; /* Muestra el botón cuando el ancho de pantalla es 768px o más */
-  }
     
     .nav-izquierda {
         height: 50px;
@@ -222,6 +218,15 @@ a{
         width: 100%;
     }
     
+.menu.active ul{
+    display: flex;
+}
+
+    .burger{
+        display: block;
+        margin-left: auto;
+    }
+
     .nav-centro li {
         margin: 5px 0;
         text-align: center;
@@ -229,10 +234,6 @@ a{
         font-size: 14px;
     }
     
-#miBoton {
-    display: block; /* Muestra el botón cuando el ancho de pantalla es 560px o más */
-  }
-
     .nav-izquierda {
         height: 45px;
         margin-bottom: 15px;
