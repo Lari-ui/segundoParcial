@@ -217,7 +217,7 @@ a{
     }
 
     .burger{
-        height: 40%;
+        height: 100%;
     }
 
     .nav-menu li {
@@ -283,6 +283,7 @@ a{
     .nav-izquierda {
         height: 45px;
         margin-bottom: 15px;
+        text-align: left;
     }
     
     .nav-izquierda img {
