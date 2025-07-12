@@ -79,10 +79,6 @@ a{
     text-align: left;
 }
 
-#toggle{
-    display: none;
-}
-
        
 /* DISENO RESPONSIVE*/
 
@@ -106,7 +102,7 @@ a{
         gap: 15px;
         width: 100%;
     }
-
+    
     .nav-centro li {
         margin: 8px 12px;
         text-align: center;
@@ -218,15 +214,6 @@ a{
         width: 100%;
     }
     
-.nav-centro.active ul{
-    display: flex;
-}
-
-    .burger{
-        display: block;
-        margin-left: auto;
-    }
-
     .nav-centro li {
         margin: 5px 0;
         text-align: center;
