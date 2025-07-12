@@ -219,7 +219,6 @@ a{
     .burger{
         height: 100%;
         font-size: xx-large;
-        text-align: right;
     }
 
    /* .nav-menu li {
@@ -273,7 +272,7 @@ a{
     
     .nav-menu{
         flex-direction: column;
-        justify-content: center;
+        justify-content: right;
     }
 
     .nav-izquierda {
