@@ -197,44 +197,6 @@ a{
     .nav-centro {
         display: none; /* Ocultamos el menú */
     } 
-    
-        #panelHamburguesa:target{
-            right: 0;
-        }
-
-        #panelHamburguesa:target ~ header nav #abrir {
-            display: none;
-        }
-
-        #panelHamburguesa:target ~ header nav #cerrar {
-            display: inline-block;
-        }
-
-        #cerrar{
-            display: none;
-        }
-
-         #panelHamburguesa{
-            height: 100vh;
-            width: 400px;
-            position: fixed;
-            top: 10vh;
-            right: -1000px;
-            transition: right 2s linear;
-
-        }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-        color: white;
-        font-size: 24px;
-    }
-
-    #toggle:checked + .hamburger + nav-centro ul{
-        display: flex;
-        right: 0%;
-    }
 
     .nav-centro.active {
         display: flex;
@@ -284,7 +246,7 @@ a{
     }
     
     .nav-principal {
-      /*  flex-direction: column;*/
+        flex-direction: column;
         padding: 15px 10px;
     }
     
