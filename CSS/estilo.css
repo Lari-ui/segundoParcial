@@ -204,7 +204,7 @@ a{
         display: none; /* Ocultamos el menú */
     } 
 
-#toggle:checked + .burger + nav-menu {
+#toggle:checked + .burger + .nav-menu {
     display: flex;
     right: 0;
   }
