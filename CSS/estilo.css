@@ -87,9 +87,16 @@ a{
         font-size: medium;
     }
     
-    #toggle:checked {
-        display: none; /* Ocultamos el menú */
-    } 
+#toggle:checked + .burger + .nav-menu {
+    display: none;
+  }
+
+    #toggle {
+        display: none;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+    }
 
     .burger{
         display: none;
@@ -250,7 +257,7 @@ a{
         justify-content: left;
     }
 
-    .nav-menu{
+    .nav-menu ul{
         flex-direction: column;
     }
 
