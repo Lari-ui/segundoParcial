@@ -104,20 +104,13 @@ a{
         justify-content: center;
         gap: 15px;
         width: 100%;
+        flex-direction: column;
     }
     
     .nav-centro li {
         margin: 8px 12px;
         text-align: center;
     }
-
-    nav ul{
-        flex-direction: column;
-    }
-
-   /* .nav-menu{
-        flex-direction: column;
-    }*/
     
     .nav-izquierda {
         height: 50px;
