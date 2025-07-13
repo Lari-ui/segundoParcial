@@ -226,7 +226,7 @@ a{
     }
 
 
-   /* label {
+    label {
         text-align: right; 
         position: absolute; 
         right: 15px; 
@@ -234,7 +234,7 @@ a{
         transform: translateY(-50%); 
         z-index: 1000; 
         margin-right: 20px;
-    }*/
+    }
 
     nav a{
         text-decoration: none;
