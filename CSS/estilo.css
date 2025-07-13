@@ -260,7 +260,7 @@ a{
         justify-content: left;
     }
 
-    .nav-menu ul{
+    .nav-centro ul{
         display: flex;
         flex-direction: column;
     }
