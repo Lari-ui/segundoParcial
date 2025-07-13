@@ -81,7 +81,7 @@ a{
        
 /* DISENO RESPONSIVE*/
 
-@media (560px< width <768px) {
+@media (560px< width <= 768px) {
     body {
         background-attachment: scroll;
         font-size: medium;
@@ -189,7 +189,7 @@ a{
     }
 }
 
-@media (max-width: 560px) {
+@media (0px < width <= 560px) {
 
     .nav-menu {
         display: none; /* Ocultamos el menú */
