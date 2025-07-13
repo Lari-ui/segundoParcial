@@ -230,6 +230,8 @@ a{
         text-align: right; /* Alineado a la derecha */
         position: absolute; /* Posicionamiento absoluto */
         right: 15px; /* Posicionado en el extremo derecho */
+        top: 50%;
+        z-index: 1000; /* Asegurar que esté por encima */
     }
 
    /* .nav-menu li {
