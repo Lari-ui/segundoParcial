@@ -231,7 +231,7 @@ a{
         position: absolute; /* Posicionamiento absoluto */
         right: 15px; /* Posicionado en el extremo derecho */
         top: 50%;
-        transform: translateY(0%); /* Centrado verticalmente */
+        transform: translateY(-10%); /* Centrado verticalmente */
         z-index: 1000; /* Asegurar que esté por encima */
     }
 
