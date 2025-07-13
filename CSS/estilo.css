@@ -242,7 +242,8 @@ a{
     }
     
     nav ul {
-        background-color: #ff000038;    
+        background-color: #ff000038; 
+        text-align: center;   
     }
 
    /* nav ul li :hover {
