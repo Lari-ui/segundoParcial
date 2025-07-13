@@ -241,14 +241,9 @@ a{
         text-decoration: none;
     }
     
-    nav ul {
-        background-color: #ff000038; 
-        justify-content: center;   
-    }
-
-   /* nav ul li :hover {
-    background-color: #ff000038;
-    } */
+    nav ul li :hover {
+    transition: #ff000038;
+    } 
 
 
     body {
