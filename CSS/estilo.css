@@ -214,7 +214,11 @@ a{
         cursor: pointer;
         color: white;
         font-size: 24px;
-        content: right;
+
+    }
+
+    label{
+        text-align: right;
     }
 
     .burger{
