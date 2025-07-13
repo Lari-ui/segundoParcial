@@ -222,6 +222,7 @@ a{
     .burger{
         height: 93%;
         font-size: xx-large;
+        display: flex;
     }
 
 
