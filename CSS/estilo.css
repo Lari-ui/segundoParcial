@@ -241,9 +241,13 @@ a{
         text-decoration: none;
     }
     
-    nav ul li :hover {
+    nav ul {
+        background-color: #ff000038;    
+    }
+
+   /* nav ul li :hover {
     background-color: #ff000038;
-    } 
+    } */
 
 
     body {
