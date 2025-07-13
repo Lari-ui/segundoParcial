@@ -232,7 +232,7 @@ a{
         right: 15px; /* Posicionado en el extremo derecho */
         top: 50%;
         transform: translateY(-10%); /* Centrado verticalmente */
-        z-index: 1000; /* Asegurar que esté por encima */
+        z-index: 500; /* Asegurar que esté por encima */
     }
 
    /* .nav-menu li {
