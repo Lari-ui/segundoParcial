@@ -237,12 +237,10 @@ a{
         margin-right: 20px;
     }
 
-     .nav-menu ul li {
-        margin: 5px 0;
-        display: block;
+    nav a{
         text-decoration: none;
     }
-
+    
     nav ul li :hover {
     background-color: #ff000038;
     } 
