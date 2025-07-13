@@ -83,7 +83,7 @@ a{
         font-size: medium;
     }
     
-    .toggle {
+    #toggle {
         display: none; /* Ocultamos el menú */
     } 
 
@@ -105,6 +105,10 @@ a{
     .nav-centro li {
         margin: 8px 12px;
         text-align: center;
+    }
+
+    .nav-menu{
+        flex-direction: column;
     }
     
     .nav-izquierda {
