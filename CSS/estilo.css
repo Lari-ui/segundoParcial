@@ -81,7 +81,7 @@ a{
        
 /* DISENO RESPONSIVE*/
 
-@media screen and (560px< width <768px) {
+@media (560px< width <768px) {
     body {
         background-attachment: scroll;
         font-size: medium;
@@ -104,7 +104,6 @@ a{
         justify-content: center;
         gap: 15px;
         width: 100%;
-        flex-direction: column;
     }
     
     .nav-centro li {
@@ -190,7 +189,7 @@ a{
     }
 }
 
-@media screen and (max-width: 560px) {
+@media (max-width: 560px) {
 
     .nav-menu {
         display: none; /* Ocultamos el menú */
