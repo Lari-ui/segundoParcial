@@ -87,7 +87,7 @@ a{
         font-size: medium;
     }
     
-    #toggle {
+    #toggle:checked {
         display: none; /* Ocultamos el menú */
     } 
 
@@ -112,7 +112,7 @@ a{
     }
 
     .nav-menu{
-        flex-direction: column;
+        display: flex;
     }
     
     .nav-izquierda {
