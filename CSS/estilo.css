@@ -260,6 +260,11 @@ a{
         justify-content: left;
     }
 
+    .nav-menu.active {
+        display: flex;
+        flex-direction: column;
+    }
+
     .nav-centro ul{
         display: flex;
         flex-direction: column;
