@@ -111,13 +111,13 @@ a{
         justify-content: center;
         gap: 15px;
         width: 100%;
-        display: flex;
-        flex-direction: row;
     }
     
     .nav-centro li {
         margin: 8px 12px;
         text-align: center;
+        display: flex;
+        flex-direction: row;
     }
     
     .nav-izquierda {
