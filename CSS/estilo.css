@@ -227,11 +227,12 @@ a{
     }
 
     label {
-        text-align: right; /* Alineado a la derecha */
-        position: absolute; /* Posicionamiento absoluto */
-        right: 15px; /* Posicionado en el extremo derecho */
+        text-align: right;
+      /*  position: absolute; 
+        right: 15px; 
         top: 50%;
-        z-index: 1000; /* Asegurar que esté por encima */
+        transform: translateY(-50%); 
+        z-index: 1000; */
     }
 
    /* .nav-menu li {
