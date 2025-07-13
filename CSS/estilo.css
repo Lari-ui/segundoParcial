@@ -22,20 +22,12 @@ body {
     display: none; /* Ocultamos el menú */
 } 
 
-.nav-principal{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .nav-centro{
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
 }
-
-
 
 .nav-centro li{
     margin: 10px;
@@ -85,7 +77,7 @@ a{
        
 /* DISENO RESPONSIVE*/
 
-@media screen and (max-width: 768px) {
+@media screen and (560px< width <768px) {
     body {
         background-attachment: scroll;
         font-size: medium;
@@ -95,13 +87,13 @@ a{
         display: none; /* Ocultamos el menú */
     } 
 
+    .burger{
+        display: none;
+    }
+
     .contenido {
         width: 95%;
         max-width: 768px;
-    }
-    
-    .nav-principal {
-        padding: 20px;
     }
     
     .nav-centro {
@@ -146,11 +138,6 @@ a{
     .cuerpo h2 {
         font-size: 22px;
         margin: 25px 0;
-    }
-    
-    .cuerpo h3 {
-        font-size: 18px;
-        margin: 20px 0;
     }
     
     .cuerpo p {
@@ -241,9 +228,9 @@ a{
         text-decoration: none;
     }
     
-    nav ul li :hover {
-    transition: #ff000038;
-    } 
+   /* nav ul li :hover {
+    background-color: #ff000038;
+    } */
 
 
     body {
