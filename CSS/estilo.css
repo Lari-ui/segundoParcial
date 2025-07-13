@@ -113,7 +113,7 @@ a{
         width: 100%;
     }
     
-    .nav-centro li {
+    .nav-centro ul {
         margin: 8px 12px;
         text-align: center;
         display: flex;
