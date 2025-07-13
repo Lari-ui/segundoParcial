@@ -20,7 +20,11 @@ body {
 
 .toggle {
     display: none; /* Ocultamos el menú */
-} 
+}
+
+.burger{
+    display: none;
+}
 
 .nav-centro{
     display: flex;
@@ -197,7 +201,6 @@ a{
 
 #toggle:checked + .burger + .nav-menu {
     display: flex;
-    grid-column: 2;
   }
 
     #toggle {
