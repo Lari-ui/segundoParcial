@@ -200,11 +200,10 @@ a{
   }
 
     #toggle {
-        display: none;
+        display: block;
         cursor: pointer;
         color: white;
         font-size: 24px;
-
     }
 
     label{
