@@ -111,10 +111,13 @@ a{
         text-align: center;
     }
 
-    .nav-menu{
-        display: flex;
+    nav ul{
         flex-direction: column;
     }
+
+   /* .nav-menu{
+        flex-direction: column;
+    }*/
     
     .nav-izquierda {
         height: 50px;
