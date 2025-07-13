@@ -230,9 +230,9 @@ a{
         text-align: right; /* Alineado a la derecha */
         position: absolute; /* Posicionamiento absoluto */
         right: 15px; /* Posicionado en el extremo derecho */
-        top: 50%;
-        transform: translateY(-10%); /* Centrado verticalmente */
-        z-index: 500; /* Asegurar que esté por encima */
+        top: 0%;
+        transform: translateY(-50%); /* Centrado verticalmente */
+        z-index: 1000; /* Asegurar que esté por encima */
     }
 
    /* .nav-menu li {
