@@ -184,16 +184,16 @@ a{
     }
 
     .nav-menu {
-        flex-direction: column;
         width: 100%;
         gap: 10px;
     }
     
-    .nav-centroSerie li {
+    .nav-menu li {
         margin: 5px 0;
         text-align: center;
         width: 100%;
         font-size: 14px;
+        text-decoration: none;
     }
     
     .nav-serieizquierda {
