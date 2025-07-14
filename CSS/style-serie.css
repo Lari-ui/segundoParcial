@@ -206,8 +206,7 @@ label {
 .nav-principalSerie {
     gap: 10px;
     width: 100%;
-    justify-content: left;
-    display: none;
+    justify-content: center;
 }
 
 nav a{
