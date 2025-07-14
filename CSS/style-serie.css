@@ -188,7 +188,7 @@ a{
         gap: 10px;
     }
     
-    .nav-menu li {
+    .nav-menu ul {
         margin: 5px 0;
         text-align: center;
         width: 100%;
