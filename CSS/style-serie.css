@@ -177,7 +177,6 @@ ul{
 
 #toggle:checked + .burger + .nav-menu {
     display: flex;
-    flex-direction: column;
   }
 
 #toggle {
@@ -206,7 +205,7 @@ label {
 .nav-principalSerie {
     gap: 10px;
     width: 100%;
-    justify-content: center;
+    justify-content: left;
 }
 
 nav a{
