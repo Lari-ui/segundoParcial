@@ -163,7 +163,7 @@ ul{
     }
     
 .nav-menu {
-    display: none; /* Ocultamos el menú */
+    display: flex; /* Ocultamos el menú */
 }
 
 /*.nav-menu.active {
