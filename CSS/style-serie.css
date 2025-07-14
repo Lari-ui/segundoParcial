@@ -173,8 +173,6 @@ ul{
 
 .nav-principalSerie ul{
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
 }
 
 #toggle:checked + .burger + .nav-menu {
@@ -183,7 +181,7 @@ ul{
   }
 
 #toggle {
-    display: none;
+    display: block;
     cursor: pointer;
     color: white;
     font-size: 24px;
