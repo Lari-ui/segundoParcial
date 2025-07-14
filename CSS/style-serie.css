@@ -97,11 +97,10 @@ body {
 .nav-principalSerie {
     justify-content: center;
     gap: 10px;
-    width: auto;
 }
     
 .nav-principalSerie ul {
-  /*  margin: 8px 12px;*/
+    margin: 8px 12px;
     text-align: center;
     display: flex;
     flex-direction: row;
