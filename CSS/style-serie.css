@@ -207,8 +207,7 @@ label {
     gap: 10px;
     width: 100%;
     justify-content: left;
-    display: flex;
-    flex-direction: column;
+    display: none;
 }
 
 nav a{
@@ -219,6 +218,7 @@ nav a{
     height: 45px;
     margin-bottom: 15px;
     text-align: left;
+    align-items: left;
 }
     
 .nav-serieizquierda img {
