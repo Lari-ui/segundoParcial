@@ -40,7 +40,7 @@ body{
     justify-content: center;
 }
 
-.nav-menu li{
+.nav-principalSerie li{
     margin: 10px;
 }
 
@@ -93,14 +93,27 @@ body {
 .burger{
     display: none;
 }
-    
+
 .nav-principalSerie {
-  /*  padding: 10px;*/
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+    
+.nav-principalSerie ul {
+    margin: 8px 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/*.nav-principalSerie {
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-}
+}*/
 
 .cuerpo-serie{
     text-align: center;
@@ -118,14 +131,18 @@ ul{
 }
 
 .nav-menu li{
-    margin: 5px;
     text-decoration: none;
 }
   
 .nav-serieizquierda {
-    height: 45px;
-    margin-bottom: 10px;
-    justify-content: left;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.nav-serieizquierda img{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
 }
     
 .mainserie {
