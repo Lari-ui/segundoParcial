@@ -168,10 +168,6 @@ ul{
         display: flex;
     }
 
-ul{
-    text-decoration: none;
-}
-
 
     label {
         text-align: right; 
@@ -199,6 +195,7 @@ ul{
         text-align: center;
         width: 100%;
         font-size: 14px;
+        list-style: none;
     }
     
         .nav-serieizquierda {
