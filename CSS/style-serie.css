@@ -22,7 +22,13 @@ body{
     background-attachment: fixed;
 }
 
+.toggle {
+    display: none; /* Ocultamos el menú */
+}
 
+.burger{
+    display: none;
+}
 
 .nav-principalSerie{
     display: flex;
@@ -30,7 +36,7 @@ body{
     justify-content: center;
 }
 
-.nav-centroSerie{
+.nav-menu{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,10 +74,25 @@ a{
 /* DISENO RESPONSIVE*/
 
 /* RESPONSIVE PARA TABLETS - 768px */
-@media screen and (max-width: 768px) {
+@media (560px< width <= 768px) {
     body {
         background-attachment: scroll;
         font-size: small;
+    }
+
+    #toggle:checked + .burger + .nav-menu {
+    display: none;
+  }
+
+    #toggle {
+        display: none;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+    }
+
+    .burger{
+        display: none;
     }
     
     .nav-principalSerie {
@@ -79,13 +100,12 @@ a{
         padding: 15px;
     }
     
-    .nav-centroSerie {
-
+    .nav-menu {
         width: 100%;
         gap: 15px;
     }
     
-    .nav-centroSerie li {
+    .nav-menu li {
         margin: 8px 0;
         text-align: center;
         width: 100%;
@@ -114,18 +134,56 @@ a{
 }
 
 /* RESPONSIVE PARA MÓVILES - 560px */
-@media screen and (max-width: 560px) {
+@media (0px < width <= 560px) {
     body {
         background-attachment: scroll;
         font-size: small;
     }
     
+.nav-menu {
+        display: none; /* Ocultamos el menú */
+    } 
+
+#toggle:checked + .burger + .nav-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+    #toggle {
+        display: none;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+    }
+
+     .burger{
+        height: 93%;
+        font-size: xx-large;
+        display: flex;
+    }
+
+
+    label {
+        text-align: right; 
+        position: absolute; 
+        right: 15px; 
+        top: 50%;
+        transform: translateY(-50%); 
+        z-index: 1000; 
+        margin-right: 20px;
+    }
+
+
     .nav-principalSerie {
         flex-direction: column;
         padding: 10px;
     }
     
-    .nav-centroSerie {
+ nav a{
+        text-decoration: none;
+    }
+
+    .nav-menu {
         flex-direction: column;
         width: 100%;
         gap: 10px;
