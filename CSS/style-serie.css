@@ -146,12 +146,10 @@ ul{
     
 .nav-menu {
     display: none; /* Ocultamos el menú */
-    width: 100%;
-    gap: 10px;
 } 
 
 .nav-menu li{
-    text-decoration: none;
+    list-style: none;
 }
 
 #toggle:checked + .burger + .nav-menu {
