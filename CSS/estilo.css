@@ -45,8 +45,13 @@ ul{
     list-style: none;
 }
 
+p{
+    background-color: #ff000038;
+}
+
 h1{
     margin-top: 100px;
+    background-color: #ff000038;
 }
 
 hr{
@@ -260,16 +265,6 @@ a{
         width: 100%;
         justify-content: left;
     }
-
-   /* .nav-menu.active {
-        display: flex;
-        flex-direction: column;
-    }*/
-
-  /*  .nav-centro ul{
-        display: flex;
-        flex-direction: column;
-    }*/
 
     .nav-izquierda {
         height: 45px;
