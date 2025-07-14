@@ -4,8 +4,6 @@
 
 .cuerpo-serie{
     text-align: center;
-    color: red;
-
 }
 
 ul{
@@ -96,28 +94,29 @@ a{
     }
     
     .nav-principalSerie {
-
         padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
     }
     
 ul{
     list-style: none;
+    text-decoration: none;
 }
 
-    .nav-menu {
-        width: 100%;
-        gap: 15px;
+.nav-principalSerie li{
+    margin: 10px;
+}
+    .nav-menu{
+
     }
-    
-    .nav-menu li {
-        margin: 8px 0;
-        text-align: center;
-        width: 100%;
-    }
-    
+  
     .nav-serieizquierda {
-        height: 50px;
+        height: 45px;
         margin-bottom: 15px;
+        justify-content: left;
     }
     
     .mainserie {
