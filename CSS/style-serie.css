@@ -196,10 +196,22 @@ a{
         text-decoration: none;
     }
     
-    .nav-serieizquierda {
+        .nav-serieizquierda {
+        height: 45px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    
+    .nav-serieizquierda img {
+        width: 800%;
+        height: auto;
+        max-width: 150px;
+    }
+
+   /* .nav-serieizquierda {
         height: 45px;
         margin-bottom: 10px;
-    }
+    }*/
     
     .mainserie {
         padding: 40px 20px;
