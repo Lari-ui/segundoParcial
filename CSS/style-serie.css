@@ -150,6 +150,10 @@ ul{
     gap: 10px;
 } 
 
+.nav-menu li{
+    text-decoration: none;
+}
+
 #toggle:checked + .burger + .nav-menu {
     display: flex;
     flex-direction: column;
@@ -195,7 +199,6 @@ ul{
         text-align: center;
         width: 100%;
         font-size: 14px;
-        list-style: none;
     }
     
         .nav-serieizquierda {
@@ -218,14 +221,14 @@ ul{
     .mainserie {
         padding: 40px 20px;
         margin: 10px;
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .pieSerie {
         margin-top: 40px;
         padding: 0 20px;
         text-align: center;
-        font-size: 13px;
+        font-size: 10px;
     }
     
     .logos {
