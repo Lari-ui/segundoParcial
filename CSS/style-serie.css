@@ -162,7 +162,7 @@ ul{
         font-size: small;
     }
     
-.nav-menu li {
+.nav-menu {
     display: none; /* Ocultamos el menú */
 }
 
@@ -207,6 +207,8 @@ label {
     gap: 10px;
     width: 100%;
     justify-content: left;
+    display: flex;
+    flex-direction: column;
 }
 
 nav a{
