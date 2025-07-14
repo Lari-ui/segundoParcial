@@ -102,6 +102,8 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+    list-style: none;
 }
 
 .cuerpo-serie{
@@ -125,7 +127,7 @@ ul{
   
 .nav-serieizquierda {
     height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .nav-serieizquierda img{
