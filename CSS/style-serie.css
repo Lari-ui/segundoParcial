@@ -166,12 +166,12 @@ ul{
     display: none; /* Ocultamos el menú */
 }
 
-.nav-menu.active {
+/*.nav-menu.active {
     display: flex;
     flex-direction: column;
-}
+}*/
 
-.nav.nav-principalSerie ul{
+.nav-principalSerie ul{
     text-decoration: none;
 }
 
@@ -180,81 +180,80 @@ ul{
     flex-direction: column;
   }
 
-    #toggle {
-        display: none;
-        cursor: pointer;
-        color: white;
-        font-size: 24px;
-    }
+#toggle {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
 
-     .burger{
-        height: 93%;
-        font-size: xx-large;
-        display: flex;
-    }
+.burger{
+    height: 93%;
+    font-size: xx-large;
+    display: flex;
+}
+
+label {
+    text-align: right; 
+    position: absolute; 
+    right: 15px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    z-index: 1000; 
+    margin-right: 20px;
+}
 
 
-    label {
-        text-align: right; 
-        position: absolute; 
-        right: 15px; 
-        top: 50%;
-        transform: translateY(-50%); 
-        z-index: 1000; 
-        margin-right: 20px;
-    }
+.nav-principalSerie {
+    gap: 10px;
+    width: 100%;
+    justify-content: left;
+}
 
+/*.nav-principalSerie ul {
+    margin: 5px 0;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}*/
 
-    .nav-principalSerie {
-        gap: 10px;
-        width: 100%;
-        justify-content: left;
-    }
+nav a{
+    text-decoration: none;
+}
+       
+.nav-serieizquierda {
+    height: 45px;
+    margin-bottom: 15px;
+    text-align: left;
+}
     
- nav a{
-        text-decoration: none;
-    }
-    
-    .nav-principalSerie ul {
-        margin: 5px 0;
-        text-align: center;
-        width: 100%;
-        font-size: 14px;
-    }
-    
-        .nav-serieizquierda {
-        height: 45px;
-        margin-bottom: 15px;
-        text-align: left;
-    }
-    
-    .nav-serieizquierda img {
-        width: 800%;
-        height: auto;
-        max-width: 150px;
-    }
+.nav-serieizquierda img {
+    width: 800%;
+    height: auto;
+    max-width: 150px;
+}
 
    /* .nav-serieizquierda {
         height: 45px;
         margin-bottom: 10px;
     }*/
     
-    .mainserie {
-        padding: 40px 20px;
-        margin: 10px;
-        font-size: 12px;
-    }
+.mainserie {
+    padding: 40px 20px;
+    margin: 10px;
+    font-size: 12px;
+}
     
-    .pieSerie {
-        margin-top: 40px;
-        padding: 0 20px;
-        text-align: center;
-        font-size: 10px;
-    }
+.pieSerie {
+    margin-top: 40px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 10px;
+}
     
-    .logos {
-        text-align: center;
-        padding: 0 20px;
-    }
+.logos {
+    text-align: center;
+    padding: 0 20px;
+}
 }
 
