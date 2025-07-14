@@ -173,6 +173,8 @@ ul{
 
 .nav-principalSerie ul{
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }
 
 #toggle:checked + .burger + .nav-menu {
@@ -203,19 +205,11 @@ label {
     margin-right: 20px;
 }
 
-
 .nav-principalSerie {
     gap: 10px;
     width: 100%;
     justify-content: left;
 }
-
-/*.nav-principalSerie ul {
-    margin: 5px 0;
-    text-align: center;
-    width: 100%;
-    font-size: 14px;
-}*/
 
 nav a{
     text-decoration: none;
@@ -232,11 +226,6 @@ nav a{
     height: auto;
     max-width: 150px;
 }
-
-   /* .nav-serieizquierda {
-        height: 45px;
-        margin-bottom: 10px;
-    }*/
     
 .mainserie {
     padding: 40px 20px;
