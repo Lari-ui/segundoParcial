@@ -148,8 +148,8 @@ ul{
     display: none; /* Ocultamos el menú */
 } 
 
-.nav-menu li{
-    list-style: none;
+.nav.nav-principalSerie ul{
+    text-decoration: none;
 }
 
 #toggle:checked + .burger + .nav-menu {
