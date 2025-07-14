@@ -95,24 +95,14 @@ body {
 }
 
 .nav-principalSerie {
-    justify-content: center;
-    gap: 10px;
-}
-    
-.nav-principalSerie ul {
-    margin: 8px 12px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-}
-
-/*.nav-principalSerie {
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-}*/
+    display: flex;
+    flex-direction: row;
+}
 
 .cuerpo-serie{
     text-align: center;
