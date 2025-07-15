@@ -114,7 +114,7 @@ a{
 
 /* DISENO RESPONSIVE */
 
-@media (560 < width <= 768px) {
+@media screen and (560px < width <= 768px) {
     body {
         background-attachment: scroll;
         font-size: medium;
