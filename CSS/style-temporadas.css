@@ -130,6 +130,7 @@ a{
         margin: 0 15px;
         border-radius: 10px;
         text-align: center;
+        font-size: larger;
     }
     
     .cuerpo-temporadas h1 {
@@ -149,46 +150,6 @@ a{
         line-height: 1.5;
         margin: 15px 0;
         text-align: left;
-    }
-    
-    
-    /* Container para múltiples temporadas */
-    .temporadas-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 25px;
-        margin: 30px 0;
-        justify-items: center;
-    }
-    
-    .temporada-item {
-        text-align: center;
-        padding: 20px;
-        background-color: rgba(0,0,0,0.3);
-        border-radius: 10px;
-        max-width: 280px;
-        width: 100%;
-    }
-    
-    .temporada-item img {
-        width: 100%;
-        max-width: 200px;
-        height: auto;
-        margin-bottom: 15px;
-        border-radius: 6px;
-    }
-    
-    .temporada-item h4 {
-        font-size: 16px;
-        color: white;
-        margin: 10px 0;
-    }
-    
-    .temporada-item p {
-        font-size: 13px;
-        color: #cccccc;
-        line-height: 1.4;
-        text-align: center;
     }
     
     /* Lista de episodios */
@@ -319,63 +280,12 @@ a{
         text-align: center;
     }
     
-    /*.cuerpo-temporadas h3 {
-        font-size: 16px;
-        margin: 15px 0 8px 0;
-        text-align: center;
-    }*/
-    
     .cuerpo-temporadas p {
         font-size: 13px;
         line-height: 1.4;
         margin: 12px 0;
         text-align: left;
     }
-    
-    /* Optimización para imágenes de temporadas en móvil 
-    .cuerpo-temporadas img {
-        width: 100%;
-        max-width: 280px;
-        height: auto;
-        object-fit: cover;
-        margin: 15px auto;
-        display: block;
-        border-radius: 6px;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
-    }*/
-    
-    /* Container para múltiples temporadas en móvil */
-  /*  .temporadas-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-        margin: 25px 0;
-        justify-items: center;
-    }
-    
-    .temporada-item {
-        text-align: center;
-        padding: 15px;
-        background-color: rgba(0,0,0,0.3);
-        border-radius: 8px;
-        max-width: 100%;
-        width: 100%;
-    }
-    
-    .temporada-item img {
-        width: 100%;
-        max-width: 150px;
-        height: auto;
-        margin-bottom: 12px;
-        border-radius: 4px;
-    }
-    
-    .temporada-item p {
-        font-size: 12px;
-        color: #cccccc;
-        line-height: 1.3;
-        text-align: center;
-    }*/
     
     /* Lista de episodios en móvil */
     .cuerpo-temporadas ul {
