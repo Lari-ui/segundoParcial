@@ -242,7 +242,7 @@ a{
 
     nav a{
         text-decoration: none;
-        text-align: left;
+        justify-content: left;
     }
 
     .contenido-elenco {
@@ -278,7 +278,6 @@ a{
         width: 800%;
         height: auto;
         max-width: 150px;
-        align-items: left;
     }
     
     .cuerpo-elenco {
