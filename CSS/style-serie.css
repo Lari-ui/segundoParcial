@@ -201,6 +201,7 @@ label {
     gap: 10px;
     width: 100%;
     justify-content: left;
+    list-style: none;
 }
 
 nav a{
