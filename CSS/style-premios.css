@@ -7,6 +7,14 @@
     color: white;
 }
 
+.toggle {
+    display: none; /* Ocultamos el menú */
+}
+
+.burger{
+    display: none;
+}
+
 ul{
     list-style: none;
 }
@@ -63,12 +71,27 @@ a{
 
 
 /* DISENO RESPONSIVE */
-@media screen and (max-width: 768px) {
+@media screen and (560px < width <= 768px) {
     body {
         background-attachment: scroll;
         font-size: small;
     }
     
+    #toggle:checked + .burger + .nav-centro-premios {
+        display: none;
+    }
+
+    #toggle {
+        display: none;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+    }
+
+    .burger{
+        display: none;
+    }
+
     .contenido-premios {
         width: 95%;
         margin: 0 auto;
@@ -120,12 +143,6 @@ a{
         text-align: center;
     }
     
-    .cuerpo-premios h3 {
-        font-size: 18px;
-        margin: 20px 0 10px 0;
-        text-align: center;
-    }
-    
     .cuerpo-premios p {
         font-size: 14px;
         line-height: 1.5;
@@ -139,6 +156,43 @@ a{
         font-size: small;
     }
     
+    .nav-centro-premios {
+        display: none; /* Ocultamos el menú */
+    } 
+
+    #toggle:checked + .burger + .nav-centro-premios {
+    display: flex;
+    flex-direction: column;
+    }
+
+    #toggle {
+        display: none;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+    }
+
+    .burger{
+        height: 93%;
+        font-size: xx-large;
+        display: flex;
+    }
+
+    label {
+        text-align: right; 
+        position: absolute; 
+        right: 15px; 
+        top: 50%;
+        transform: translateY(-50%); 
+        z-index: 1000; 
+        margin-right: 20px;
+        color: white;
+    }
+
+    nav a{
+        text-decoration: none;
+    }
+
     .contenido-premios {
         width: 98%;
         margin: 0 auto;
@@ -188,12 +242,6 @@ a{
     .cuerpo-premios h2 {
         font-size: 18px;
         margin: 20px 0 12px 0;
-        text-align: center;
-    }
-    
-    .cuerpo-premios h3 {
-        font-size: 16px;
-        margin: 15px 0 8px 0;
         text-align: center;
     }
     
