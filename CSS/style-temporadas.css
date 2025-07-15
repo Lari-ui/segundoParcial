@@ -260,6 +260,7 @@ a{
         transform: translateY(-50%); 
         z-index: 1000; 
         margin-right: 20px;
+        color: white;
     }
 
     nav a{
@@ -344,7 +345,7 @@ a{
     }*/
     
     /* Container para múltiples temporadas en móvil */
-    .temporadas-container {
+  /*  .temporadas-container {
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
@@ -369,18 +370,12 @@ a{
         border-radius: 4px;
     }
     
-    .temporada-item h4 {
-        font-size: 14px;
-        color: white;
-        margin: 8px 0;
-    }
-    
     .temporada-item p {
         font-size: 12px;
         color: #cccccc;
         line-height: 1.3;
         text-align: center;
-    }
+    }*/
     
     /* Lista de episodios en móvil */
     .cuerpo-temporadas ul {
@@ -410,7 +405,7 @@ a{
     }
     
     .logos-temporadas img {
-        max-width: 80px;
+        max-width: 60px;
         height: auto;
         margin: 8px;
     }
