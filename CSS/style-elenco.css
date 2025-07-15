@@ -116,7 +116,7 @@ a{
         font-size: medium;
     }
     
-    #toggle{
+    .toggle{
         display: none;
     }
 
