@@ -98,17 +98,14 @@ body {
     display: flex;
     color: white;
  /*   flex-direction: row;
-    text-decoration: none;
-    list-style: none;*/
+    text-decoration: none;*/
+    list-style: none;
     justify-content: space-around;
     padding: 10px;
 }
 
 .nav-principalSerie ul {
     margin: 8px 12px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
 }
 
 .cuerpo-serie{
