@@ -166,11 +166,6 @@ ul{
     display: none; /* Ocultamos el menú */
 }
 
-/*.nav-menu.active {
-    display: flex;
-    flex-direction: column;
-}*/
-
 .nav-principalSerie ul{
     text-decoration: none;
 }
