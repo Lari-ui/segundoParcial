@@ -116,8 +116,11 @@ a{
         font-size: medium;
     }
     
-    .toggle{
+    #toggle {
         display: none;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
     }
 
     .burger{
@@ -166,24 +169,24 @@ a{
         padding: 20px;
         width: 300%;
         height: auto;
-        text-align: center;
+        align-items: center;
     }
     
     .zazie, .aron, .kate, .josh, .anjana {
         padding: 15px;
         width: 30%;
         height: auto;
-        text-align: center;
+        align-items: center;
     }
     
     .pie-elenco {
         margin-top: 60px;
         padding: 0 30px;
-        text-align: center;
+        align-items: center;
     }
     
     .logos-elenco {
-        text-align: center;
+        align-items: center;
         padding: 0 30px;
     }
 }
