@@ -243,6 +243,7 @@ a{
     nav a{
         text-decoration: none;
         text-align: left;
+        position: absolute;
     }
 
     .contenido-elenco {
@@ -252,7 +253,6 @@ a{
     .nav-principal-elenco {
         flex-direction: column;
         padding: 10px 15px;
-        text-align: left;
     }
     
     .nav-centro-elenco {
