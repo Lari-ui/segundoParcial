@@ -123,6 +123,10 @@ a{
         font-size: 24px;
     }
 
+    #toggle:checked + .burger + .nav-centro-elenco {
+        display: none;
+    }
+
     .burger{
         display: none;
     }
@@ -167,9 +171,9 @@ a{
     
     .salma {
         padding: 20px;
-        width: 300%;
+        width: 250%;
         height: auto;
-        align-items: center;
+        justify-content: center;
     }
     
     .zazie, .aron, .kate, .josh, .anjana {
