@@ -72,7 +72,7 @@ a{
 /* DISENO RESPONSIVE*/
 
 /* RESPONSIVE PARA TABLETS - 768px */
-@media (560px< width <= 768px) {
+@media screen and (560px< width <= 768px) {
 
 body {
     background-attachment: scroll;
@@ -156,7 +156,7 @@ ul{
 }
 
 /* RESPONSIVE PARA MÓVILES - 560px */
-@media (0px < width <= 560px) {
+@media screen and ( max-width: 560px) {
     body {
         background-attachment: scroll;
         font-size: small;
