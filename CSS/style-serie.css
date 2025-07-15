@@ -97,11 +97,11 @@ body {
 .nav-principalSerie {
     display: flex;
     color: white;
-    flex-direction: row;
+ /*   flex-direction: row;
     text-decoration: none;
-    list-style: none;
+    list-style: none;*/
     justify-content: space-around;
-    gap: 15px;
+    padding: 10px;
 }
 
 .nav-principalSerie ul {
