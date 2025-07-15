@@ -97,10 +97,8 @@ body {
 .nav-principalSerie {
     padding: 10px;
     display: flex;
-    align-items: center;
     justify-content: center;
     color: white;
-    display: flex;
     flex-direction: row;
     text-decoration: none;
     list-style: none;
@@ -117,7 +115,6 @@ ul{
 
 .nav-menu{
     display: flex;
-    align-items: center;
     justify-content: center;
     font-size: larger;
 }
