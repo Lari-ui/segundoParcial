@@ -175,9 +175,9 @@ ul{
     text-decoration: none;
 }
 
-#toggle:checked + .burger + .nav-menu {
-    display: flex;
-  }
+#toggle:checked ~ .nav-menu {
+  display: block; /* Muestra el menú */
+} 
 
 #toggle {
     display: none;
