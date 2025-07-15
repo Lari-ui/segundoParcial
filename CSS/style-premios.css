@@ -99,8 +99,9 @@ a{
     }
     
     .nav-principal-premios {
-
-        padding: 20px;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
     }
     
     .nav-centro-premios {
@@ -126,9 +127,8 @@ a{
     }
     
     .cuerpo-premios {
-        padding: 60px 30px;
-        margin: 0 15px;
-        border-radius: 10px;
+        width: 95%;
+        max-width: 768px;
     }
     
     .cuerpo-premios h1 {
