@@ -267,6 +267,7 @@ a{
     .nav-izquierda-elenco {
         height: 45px;
         margin-bottom: 10px;
+        align-items: left;
     }
     
     .cuerpo-elenco {
