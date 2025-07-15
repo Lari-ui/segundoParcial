@@ -169,8 +169,9 @@ body {
     text-decoration: none;
 }
 
-#toggle:checked ~ .nav-menu {
-  display: flex; /* Muestra el menú */
+#toggle:checked + .burger + .nav-menu {
+    display: flex;
+    flex-direction: column;
 } 
 
 #toggle {
