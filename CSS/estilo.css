@@ -93,9 +93,9 @@ a{
         font-size: medium;
     }
     
-#toggle:checked + .burger + .nav-menu {
-    display: none;
-  }
+    #toggle:checked + .burger + .nav-menu {
+        display: none;
+    }
 
     #toggle {
         display: none;
