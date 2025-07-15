@@ -113,7 +113,8 @@ body {
 }
 
 .cuerpo-serie{
-    text-align: center;
+    padding: 30px 20px;
+    margin: 0 15px;
 }
     
 ul{
