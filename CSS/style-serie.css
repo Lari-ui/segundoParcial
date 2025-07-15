@@ -176,7 +176,7 @@ ul{
 }
 
 #toggle:checked ~ .nav-menu {
-  display: block; /* Muestra el menú */
+  display: flex; /* Muestra el menú */
 } 
 
 #toggle {
