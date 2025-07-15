@@ -130,7 +130,7 @@ a{
         margin: 0 15px;
         border-radius: 10px;
         text-align: center;
-        font-size: larger;
+        font-size: xx-large;
     }
     
     .cuerpo-temporadas h1 {
@@ -178,7 +178,7 @@ a{
     }
     
     .logos-temporadas img {
-        max-width: 80px;
+        max-width: 30px;
         height: auto;
         margin: 10px;
     }
