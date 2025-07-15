@@ -12,6 +12,14 @@
     margin: auto;
 }
 
+#toggle{
+    display: none;
+}
+
+.burger{
+    display: none;
+}
+
 ul{
     list-style: none;
 }
@@ -108,6 +116,14 @@ a{
         font-size: medium;
     }
     
+    #toggle{
+        display: none;
+    }
+
+    .burger{
+        display: none;
+    }
+
     .contenido-elenco {
         width: 95%;
     }
