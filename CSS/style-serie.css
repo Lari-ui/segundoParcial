@@ -95,13 +95,21 @@ body {
 }
 
 .nav-principalSerie {
-    padding: 10px;
     display: flex;
-    justify-content: center;
     color: white;
     flex-direction: row;
     text-decoration: none;
     list-style: none;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.nav-principalSerie ul {
+    margin: 8px 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .cuerpo-serie{
