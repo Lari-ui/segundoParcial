@@ -252,6 +252,7 @@ a{
     .nav-principal-elenco {
         flex-direction: column;
         padding: 10px 15px;
+        justify-content: left;
     }
     
     .nav-centro-elenco {
