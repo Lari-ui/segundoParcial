@@ -16,6 +16,10 @@
     display: none;
 }
 
+#toggle:checked + .burger + .nav-centro-elenco {
+    display: none;
+}
+
 .burger{
     display: none;
 }
@@ -180,7 +184,7 @@ a{
         padding: 15px;
         width: 30%;
         height: auto;
-        align-items: center;
+        justify-content: center;
     }
     
     .pie-elenco {
