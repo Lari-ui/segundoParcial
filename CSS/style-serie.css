@@ -143,10 +143,10 @@ ul{
 }
     
 .mainserie {
-    padding: 60px 30px;
-    margin: 15px;
-    font-size: larger;
+    width: 95%;
+    max-width: 768px;
 }
+
     
 .pieSerie {
     margin-top: 60px;
