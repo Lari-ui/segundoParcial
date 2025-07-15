@@ -120,8 +120,15 @@ a{
         font-size: medium;
     }
     
+    #toggle:checked + .burger + .nav-centro-elenco {
+        display: none;
+    }
+
     #toggle {
         display: none;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
     }
 
     .burger{
