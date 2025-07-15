@@ -7,6 +7,14 @@
     margin: auto;
 }
 
+.toggle {
+    display: none; /* Ocultamos el menú */
+}
+
+.burger{
+    display: none;
+}
+
 body {
     background-image: url(../img/fondomain1.jpg);
     background-size: cover;
@@ -65,12 +73,27 @@ a{
 /* DISENO RESPONSIVE */
 
 /* TABLET - 768px y menos */
-@media screen and (max-width: 768px) {
+@media screen and (560px < width <= 768px) {
     body {
         background-attachment: scroll;
         font-size: small;
     }
     
+    #toggle:checked + .burger + .nav-centro-temporadas {
+        display: none;
+    }
+
+    #toggle {
+        display: none;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+    }
+
+    .burger{
+        display: none;
+    }
+
     .contenido-temporadas {
         width: 95%;
         max-width: 768px;
@@ -121,12 +144,6 @@ a{
         text-align: center;
     }
     
-   /* .cuerpo-temporadas h3 {
-        font-size: 18px;
-        margin: 20px 0 10px 0;
-        text-align: center;
-    }*/
-    
     .cuerpo-temporadas p {
         font-size: 14px;
         line-height: 1.5;
@@ -134,17 +151,6 @@ a{
         text-align: left;
     }
     
-    /* Optimización para imágenes de temporadas 
-    .cuerpo-temporadas img {
-        width: 100%;
-        max-width: 350px;
-        height: auto;
-        object-fit: cover;
-        margin: 20px auto;
-        display: block;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    }*/
     
     /* Container para múltiples temporadas */
     .temporadas-container {
@@ -224,6 +230,22 @@ a{
         font-size: small;
     }
     
+    .nav-centro-temporadas {
+        display: none; /* Ocultamos el menú */
+    } 
+
+#toggle:checked + .burger + .nav-centro-temporadas {
+    display: flex;
+    flex-direction: column;
+  }
+
+    #toggle {
+        display: none;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+    }
+
     .contenido-temporadas {
         width: 98%;
     }
