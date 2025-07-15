@@ -74,6 +74,7 @@ a{
 @media screen and (560px < width <= 768px) {
     body {
         background-attachment: scroll;
+        overflow-x: hidden;
         font-size: small;
     }
     
@@ -95,7 +96,6 @@ a{
     .contenido-premios {
         padding: 30px 20px;
         margin: 0 15px;
-        overflow-x: hidden;
     }
     
     .nav-principal-premios {
@@ -129,7 +129,6 @@ a{
     .cuerpo-premios {
         width: 100%;
         max-width: 768px;
-        overflow-x: hidden;
     }
     
     .cuerpo-premios h1 {
