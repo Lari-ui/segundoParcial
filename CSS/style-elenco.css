@@ -222,6 +222,7 @@ a{
         height: 93%;
         font-size: xx-large;
         display: flex;
+        color: white;
     }
 
     .nav-centro-elenco{
@@ -240,6 +241,9 @@ a{
 
     nav a{
         text-decoration: none;
+        align-items: left;
+        text-align: left;
+        justify-content: left;
     }
 
     .contenido-elenco {
