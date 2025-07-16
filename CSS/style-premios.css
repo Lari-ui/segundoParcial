@@ -69,6 +69,8 @@ a{
     color: white;
 }
 
+/* RESPONSIVE PANTALLAS HASTA 768PX*/
+
 @media screen and (max-width: 768px) {
     .nav-principal-premios {
         padding: 10px;
@@ -135,174 +137,7 @@ a{
     }
 }
 
-/* Media Query para móviles (560px y menores) */
-/*@media screen and (max-width: 560px) {
-    .burger {
-        display: block;
-        background: none;
-        border: none;
-        color: white;
-        font-size: 24px;
-        cursor: pointer;
-        padding: 10px;
-    }
-    
-    #toggle:checked + .burger + .nav-centro-premios {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .nav-centro-premios {
-        display: none;
-        position: absolute;
-        top: 150%;
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        padding: 20px 0;
-        z-index: 1000;
-        background-color: rgba(255,255,255,0.1);
-    }
-    
-    label {
-        text-align: right; 
-        position: absolute; 
-        right: 15px; 
-        top: 50%;
-        transform: translateY(-50%); 
-        z-index: 1000; 
-        margin-right: 20px;
-        color: white;
-    }
-
-    .nav-principal-premios {
-        position: relative;
-        justify-content: space-between;
-        padding: 10px 20px;
-        text-decoration: none;
-    }
-
-    .nav-principal-premios ul{
-        text-decoration: none;
-    }
-    
-    .nav-centro-premios li {
-        margin: 10px 0;
-        padding: 10px 20px;
-    }
-    
-    .cuerpo-premios {
-        padding: 40px 20px;
-        font-size: 13px;
-    }
-    
-    .pie-premios {
-        margin-top: 40px;
-        padding: 0 20px;
-        font-size: 12px;
-    }
-    
-    .logos-premios {
-        padding: 0 20px;
-        margin-top: 15px;
-    }
-    
-    .nav-izquierda-premios {
-        height: 50px;
-    }
-    
-    body {
-        font-size: x-small;
-        background-attachment: scroll; 
-    }
-}*/
-
-
-
-
-
-
-
-
-/* DISENO RESPONSIVE LARA*/
-/*@media screen and (560px < width <= 768px) {
-    body {
-        background-attachment: scroll;
-        overflow-x: hidden;
-        font-size: small;
-    }
-    
-    #toggle:checked + .burger + .nav-centro-premios {
-        display: none;
-    }
-
-    #toggle {
-        display: none;
-        cursor: pointer;
-        color: white;
-        font-size: 24px;
-    }
-
-    .burger{
-        display: none;
-    }
-
-    .contenido-premios {
-        padding: 30px 20px;
-        margin: 0 15px;
-    }
-    
-    .nav-principal-premios {
-        justify-content: center;
-        gap: 15px;
-        width: 100%;
-    }
-    
-    .nav-centro-premios {
-        justify-content: center;
-        gap: 15px;
-        width: 100%;
-    }
-    
-    .nav-centro-premios li {
-        margin: 8px 12px;
-        text-align: center;
-    }
-    
-    .nav-izquierda-premios {
-        height: 50px;
-        margin-bottom: 20px;
-    }
-    
-    .nav-izquierda-premios img {
-        width: 100%;
-        height: auto;
-        max-width: 200px;
-    }
-    
-    .cuerpo-premios {
-        width: 100%;
-        max-width: 768px;
-    }
-    
-    .cuerpo-premios h1 {
-        font-size: 24px;
-        margin-bottom: 30px;
-        text-align: center;
-    }
-    
-    .cuerpo-premios h2 {
-        font-size: 20px;
-        margin: 25px 0 15px 0;
-        text-align: center;
-    }
-    
-    .cuerpo-premios p {
-        font-size: 14px;
-        line-height: 1.5;
-        margin: 15px 0;
-        text-align: center;
-    }*/
+/* DISENO RESPONSIVE pantallas 560PX*/
 
     @media screen and (max-width: 560px) {
     body {
@@ -352,7 +187,7 @@ a{
     }
     
     .nav-principal-premios {
-        flex-direction: column;
+        flex-direction: row;
         padding: 15px 10px;
     }
     
