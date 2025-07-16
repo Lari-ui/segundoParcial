@@ -256,10 +256,7 @@ a{
         width: 98%;
         margin: 0 auto;
     }
-    .nav-principal-contacto ul{
-        text-decoration: none;
-        list-style: none;
-    }
+
     .nav-principal-contacto {
         display: flex;
         flex-direction: row;
@@ -273,6 +270,8 @@ a{
         display: none;
         gap: 10px;
         width: 100%;
+        list-style: none;
+        text-decoration: none;
     }
     
     .nav-centro-contacto li {
