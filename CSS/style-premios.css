@@ -187,6 +187,7 @@ a{
     }
     
     .nav-principal-premios {
+        display: flex;
         flex-direction: row;
         padding: 15px 10px;
     }
