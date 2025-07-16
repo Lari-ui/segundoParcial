@@ -264,14 +264,13 @@ a{
         position: relative;
         justify-content: space-between;
         padding: 10px 20px;
+        text-decoration: none;
     }
     
     .nav-centro-contacto {
         display: none;
         gap: 10px;
         width: 100%;
-        list-style: none;
-        text-decoration: none;
     }
     
     .nav-centro-contacto li {
