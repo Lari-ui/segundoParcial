@@ -222,10 +222,6 @@ a{
         background-attachment: scroll;
         font-size: small;
     }
-    
-.nav-centro-contacto{
-    display: none;
-}
 
 #toggle:checked + .burger + .nav-centro-contacto {
     display: flex;
@@ -271,7 +267,6 @@ a{
     }
     
     .nav-centro-contacto {
-        flex-direction: column;
         gap: 10px;
         width: 100%;
     }
