@@ -158,14 +158,10 @@ a{
         top: 100%;
         left: 0;
         right: 0;
-        background-color: rgba(0, 0, 0, 0.9);
         flex-direction: column;
         padding: 20px 0;
         z-index: 1000;
-    }
-    
-    .toggle:checked + .burger + .nav-centro-premios {
-        display: flex;
+        list-style: none;
     }
     
     .nav-principal-premios {
@@ -177,11 +173,6 @@ a{
     .nav-centro-premios li {
         margin: 10px 0;
         padding: 10px 20px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    
-    .nav-centro-premios li:last-child {
-        border-bottom: none;
     }
     
     .cuerpo-premios {
@@ -206,7 +197,7 @@ a{
     
     body {
         font-size: x-small;
-        background-attachment: scroll; /* Mejor rendimiento en móviles */
+        background-attachment: scroll; 
     }
 }
 
