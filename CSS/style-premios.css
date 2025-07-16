@@ -74,7 +74,10 @@ a{
         flex-direction: column;
         padding: 10px;
     }
-    
+  
+    #toggle:checked + .burger + .nav-centro-premios {
+        display: none;
+    }
 
     #toggle {
         display: none;
