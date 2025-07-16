@@ -161,20 +161,19 @@ a{
         flex-direction: column;
         padding: 20px 0;
         z-index: 1000;
-        text-decoration: none;
+        background-color: #ff000038;
     }
     
     .nav-principal-premios {
         position: relative;
         justify-content: space-between;
         padding: 10px 20px;
+        text-decoration: none;
     }
     
     .nav-centro-premios li {
         margin: 10px 0;
         padding: 10px 20px;
-        list-style: none;
-        text-decoration: none;
     }
     
     .cuerpo-premios {
