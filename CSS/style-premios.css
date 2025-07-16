@@ -69,9 +69,129 @@ a{
     color: white;
 }
 
+@media screen and (max-width: 768px) {
+    .nav-principal-premios {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .nav-centro-premios {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .nav-centro-premios li {
+        margin: 8px 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-izquierda-premios {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .cuerpo-premios {
+        padding: 80px 30px;
+        font-size: 14px;
+    }
+    
+    .pie-premios {
+        margin-top: 60px;
+        padding: 0 30px;
+        text-align: center;
+    }
+    
+    .logos-premios {
+        text-align: center;
+        padding: 0 30px;
+        margin-top: 20px;
+    }
+    
+    body {
+        font-size: small;
+    }
+}
 
-/* DISENO RESPONSIVE */
-@media screen and (560px < width <= 768px) {
+/* Media Query para móviles (560px y menores) */
+@media screen and (max-width: 560px) {
+    .burger {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        padding: 10px;
+    }
+    
+    .nav-centro-premios {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        flex-direction: column;
+        padding: 20px 0;
+        z-index: 1000;
+    }
+    
+    .toggle:checked + .burger + .nav-centro-premios {
+        display: flex;
+    }
+    
+    .nav-principal-premios {
+        position: relative;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    
+    .nav-centro-premios li {
+        margin: 10px 0;
+        padding: 10px 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .nav-centro-premios li:last-child {
+        border-bottom: none;
+    }
+    
+    .cuerpo-premios {
+        padding: 40px 20px;
+        font-size: 13px;
+    }
+    
+    .pie-premios {
+        margin-top: 40px;
+        padding: 0 20px;
+        font-size: 12px;
+    }
+    
+    .logos-premios {
+        padding: 0 20px;
+        margin-top: 15px;
+    }
+    
+    .nav-izquierda-premios {
+        height: 50px;
+    }
+    
+    body {
+        font-size: x-small;
+        background-attachment: scroll; /* Mejor rendimiento en móviles */
+    }
+}
+
+
+
+
+
+
+
+
+/* DISENO RESPONSIVE LARA*/
+/*@media screen and (560px < width <= 768px) {
     body {
         background-attachment: scroll;
         overflow-x: hidden;
@@ -157,7 +277,7 @@ a{
     }
     
     .nav-centro-premios {
-        display: none; /* Ocultamos el menú */
+        display: none; 
     } 
 
     #toggle:checked + .burger + .nav-centro-premios {
@@ -262,6 +382,4 @@ a{
         height: auto;
         margin: 8px;
     }
-
-  }
-}
+*/
