@@ -365,4 +365,22 @@ nav a{
     min-height: 80px;
     resize: vertical;
 }
+
+.pie-contacto {
+    margin-top: 40px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 12px;
+}
+    
+.logos-contacto {
+    text-align: center;
+    padding: 0 20px;
+}
+    
+.logos-contacto img {
+    max-width: 30px;
+    height: auto;
+    margin: 8px;
+}
 }
