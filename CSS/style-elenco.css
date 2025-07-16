@@ -197,6 +197,10 @@ a{
         align-items: center;
         padding: 0 30px;
     }
+
+    div a{
+        align-items: center;
+    }
 }
 
 /* MÓVIL - 560px y menos */

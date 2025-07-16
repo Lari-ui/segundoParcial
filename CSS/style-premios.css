@@ -71,188 +71,189 @@ a{
 
 /* RESPONSIVE PANTALLAS HASTA 768PX*/
 
-@media screen and (max-width: 768px) {
-    .nav-principal-premios {
-        padding: 10px;
-    }
+@media screen and (560px< width <= 768px) {
+    
+.nav-principal-premios {
+    padding: 10px;
+}
   
-    #toggle:checked + .burger + .nav-centro-premios {
-        display: none;
-    }
+#toggle:checked + .burger + .nav-centro-premios {
+    display: none;
+}
 
-    #toggle {
-        display: none;
-        cursor: pointer;
-        color: white;
-        font-size: 24px;
-    }
+#toggle {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
 
 .burger{
     display: none;
 }
 
-    .nav-centro-premios {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
+.nav-centro-premios {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
     
-    .nav-centro-premios li {
-        margin: 8px 0;
-        width: 100%;
-        text-align: center;
-    }
+.nav-centro-premios li {
+    margin: 8px 0;
+    width: 100%;
+    text-align: center;
+}
     
-    .nav-izquierda-premios {
-        height: 50px;
-        margin-bottom: 20px;
-    }
+.nav-izquierda-premios {
+    height: 50px;
+    margin-bottom: 20px;
+}
 
-    .nav-izquierda-premios img{
-        width: 100%;
-        height: auto;
-        max-width: 200px;   
-    }
+.nav-izquierda-premios img{
+    width: 100%;
+    height: auto;
+    max-width: 200px;   
+}
     
-    .cuerpo-premios {
-        padding: 80px 30px;
-        font-size: 14px;
-    }
+.cuerpo-premios {
+    padding: 80px 30px;
+    font-size: 14px;
+}
     
-    .pie-premios {
-        margin-top: 60px;
-        padding: 0 30px;
-        text-align: center;
-    }
+.pie-premios {
+    margin-top: 60px;
+    padding: 0 30px;
+    text-align: center;
+}
     
-    .logos-premios {
-        text-align: center;
-        padding: 0 30px;
-        margin-top: 20px;
-    }
+.logos-premios {
+    text-align: center;
+    padding: 0 30px;
+    margin-top: 20px;
+}
     
-    body {
-        font-size: small;
-        background-attachment: scroll;
-    }
+body {
+    font-size: small;
+    background-attachment: scroll;
+}
 }
 
 /* DISENO RESPONSIVE pantallas 560PX*/
 
-    @media screen and (max-width: 560px) {
-    body {
-        background-attachment: scroll;
-        font-size: small;
-    }
+@media screen and (max-width: 560px) {
+body {
+    background-attachment: scroll;
+    font-size: small;
+}
     
-    .nav-centro-premios {
-        display: none; 
-    } 
+.nav-centro-premios {
+    display: none; 
+} 
 
-    #toggle:checked + .burger + .nav-centro-premios {
+#toggle:checked + .burger + .nav-centro-premios {
     display: flex;
     flex-direction: column;
-    }
+}
 
-    #toggle {
-        display: none;
-        cursor: pointer;
-        color: white;
-        font-size: 24px;
-    }
+#toggle {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
 
-    .burger{
-        height: 93%;
-        font-size: xx-large;
-        display: flex;
-    }
+.burger{
+    height: 93%;
+    font-size: xx-large;
+    display: flex;
+}
 
-    label {
-        text-align: right; 
-        position: absolute; 
-        right: 15px; 
-        top: 50%;
-        transform: translateY(-50%); 
-        z-index: 1000; 
-        margin-right: 20px;
-        color: white;
-    }
+label {
+    text-align: right; 
+    position: absolute; 
+    right: 15px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    z-index: 1000; 
+    margin-right: 20px;
+    color: white;
+}
 
-    nav a{
-        text-decoration: none;
-    }
+nav a{
+    text-decoration: none;
+}
 
-    .contenido-premios {
-        width: 98%;
-    }
+.contenido-premios {
+    width: 98%;
+}
     
-    .nav-principal-premios {
-        display: flex;
-        flex-direction: row;
-        padding: 15px 10px;
-        position: relative;
-        justify-content: space-between;
-        padding: 10px 20px;
-    }
+.nav-principal-premios {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 10px;
+    position: relative;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
     
-    .nav-centro-premios {
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-    }
+.nav-centro-premios {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
     
-    .nav-centro-premios li {
-        margin: 5px 0;
-        text-align: center;
-        width: 100%;
-        font-size: 14px;
-    }
+.nav-centro-premios li {
+    margin: 5px 0;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
     
-    .nav-izquierda-premios {
-        height: 45px;
-        margin-bottom: 15px;
-    }
+.nav-izquierda-premios {
+    height: 45px;
+    margin-bottom: 15px;
+}
     
-    .nav-izquierda-premios img {
-        width: 100%;
-        height: auto;
-        max-width: 150px;
-    }
+.nav-izquierda-premios img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+}
     
-    .cuerpo-premios {
-        text-align: center;
-    }
+.cuerpo-premios {
+    text-align: center;
+}
     
-    .cuerpo-premios h1 {
-        font-size: medium;
-        text-align: center;
-    }
+.cuerpo-premios h1 {
+    font-size: medium;
+    text-align: center;
+}
     
-    .cuerpo-premios h2 {
-       font-size: medium;
-        text-align: center;
-    }
+.cuerpo-premios h2 {
+    font-size: medium;
+    text-align: center;
+}
     
-    .cuerpo-premios p {
-        font-size: medium;
-        text-align: left;
-    }
+.cuerpo-premios p {
+    font-size: medium;
+    text-align: left;
+}
 
-    .pie-premios {
-        margin-top: 40px;
-        padding: 0 20px;
-        text-align: center;
-        font-size: 12px;
-    }
+.pie-premios {
+    margin-top: 40px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 12px;
+}
     
-    .logos-premios {
-        text-align: center;
-        padding: 0 20px;
-    }
+.logos-premios {
+    text-align: center;
+    padding: 0 20px;
+}
     
-    .logos-premios img {
-        max-width: 30px;
-        height: auto;
-        margin: 8px;
-    }
-    }
+.logos-premios img {
+    max-width: 30px;
+    height: auto;
+    margin: 8px;
+}
+}

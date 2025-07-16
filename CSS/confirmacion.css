@@ -32,7 +32,7 @@
 
 /* DISENO RESPONSIVE*/
 
-/* Tablet - 768px y menor */
+/* Tablet */
 @media screen and (max-width: 768px) {
     .cuerpo {
         padding: 100px 50px;
@@ -52,7 +52,7 @@
     }
 }
 
-/* Celular - 560px y menor */
+/* Celular  */
 @media screen and (max-width: 560px) {
     .cuerpo {
         padding: 50px 20px;
