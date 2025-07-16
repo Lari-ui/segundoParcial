@@ -256,7 +256,9 @@ a{
         width: 98%;
         margin: 0 auto;
     }
-    
+    .nav-principal-contacto ul{
+        text-decoration: none;
+    }
     .nav-principal-contacto {
         display: flex;
         flex-direction: row;
