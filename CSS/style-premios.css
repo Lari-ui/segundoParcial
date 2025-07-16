@@ -230,26 +230,30 @@ a{
     }
     
     .cuerpo-premios {
-        width: 98%;
+        padding: 60px 30px;
+        margin: 0 15px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: larger;
     }
     
     .cuerpo-premios h1 {
-        font-size: 20px;
-        margin-bottom: 25px;
+        font-size: x-large;
+        margin-bottom: 30px;
         text-align: center;
     }
     
     .cuerpo-premios h2 {
-        font-size: 18px;
-        margin: 20px 0 12px 0;
+        font-size: x-large;
+        margin: 25px 0 15px 0;
         text-align: center;
     }
     
     .cuerpo-premios p {
-        font-size: 13px;
-        line-height: 1.4;
-        margin: 12px 0;
-        text-align: center;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 15px 0;
+        text-align: left;
     }
   }
 }
