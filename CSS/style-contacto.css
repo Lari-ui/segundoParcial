@@ -258,6 +258,7 @@ a{
     }
     .nav-principal-contacto ul{
         text-decoration: none;
+        list-style: none;
     }
     .nav-principal-contacto {
         display: flex;
