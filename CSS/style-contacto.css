@@ -257,6 +257,11 @@ a{
         margin: 0 auto;
     }
 
+nav a{
+    text-decoration: none;
+    list-style: none;
+}
+
     .nav-principal-contacto {
         display: flex;
         flex-direction: row;
@@ -264,7 +269,6 @@ a{
         position: relative;
         justify-content: space-between;
         padding: 10px 20px;
-        text-decoration: none;
     }
     
     .nav-centro-contacto {
