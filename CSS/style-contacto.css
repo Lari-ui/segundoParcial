@@ -223,6 +223,10 @@ a{
         font-size: small;
     }
     
+.nav-centro-contacto{
+    display: none;
+}
+
 #toggle:checked + .burger + .nav-centro-contacto {
     display: flex;
     flex-direction: column;
@@ -267,7 +271,7 @@ a{
     }
     
     .nav-centro-contacto {
-        display: none;
+        flex-direction: column;
         gap: 10px;
         width: 100%;
     }
