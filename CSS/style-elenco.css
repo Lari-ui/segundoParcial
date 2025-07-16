@@ -219,7 +219,6 @@ a{
 
     nav a{
         text-decoration: none;
-        justify-content: left;
     }
 
     .contenido-elenco {
@@ -227,7 +226,8 @@ a{
     }
     
     .nav-principal-elenco {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         padding: 10px 15px;
         justify-content: left;
     }
