@@ -194,16 +194,17 @@ a{
     }
 
     .contenido-premios {
-        width: 98%;
-        margin: 0 auto;
+        padding: 20px 15px;
+        margin: 0 10px;;
     }
     
     .nav-principal-premios {
-        flex-direction: column;
-        padding: 15px 10px;
+        gap: 10px;
+        width: 100%;
+        justify-content: left;
     }
     
-    .nav-centro-premios {
+  /*  .nav-centro-premios {
         flex-direction: column;
         gap: 10px;
         width: 100%;
@@ -214,23 +215,22 @@ a{
         text-align: center;
         width: 100%;
         font-size: 14px;
-    }
+    }*/
     
     .nav-izquierda-premios {
         height: 45px;
         margin-bottom: 15px;
+        text-align: left;
     }
     
     .nav-izquierda-premios img {
-        width: 100%;
+        width: 800%;
         height: auto;
         max-width: 150px;
     }
     
     .cuerpo-premios {
-        padding: 40px 20px;
-        margin: 0 10px;
-        border-radius: 8px;
+        width: 98%;
     }
     
     .cuerpo-premios h1 {
