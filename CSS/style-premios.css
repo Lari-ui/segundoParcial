@@ -75,9 +75,13 @@ a{
         padding: 10px;
     }
     
-.toggle {
-    display: none; /* Ocultamos el menú */
-}
+
+    #toggle {
+        display: none;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+    }
 
 .burger{
     display: none;
