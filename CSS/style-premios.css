@@ -198,14 +198,14 @@ a{
     }
     
     .nav-principal-premios {
-        gap: 10px;
-        width: 100%;
-        justify-content: left;
+        flex-direction: column;
+        padding: 15px 10px;
     }
     
     .nav-centro-premios {
         flex-direction: column;
-        padding: 15px 10px;
+        gap: 10px;
+        width: 100%;
     }
     
     .nav-centro-premios li {
@@ -240,7 +240,7 @@ a{
     }
     
     .cuerpo-premios h2 {
-        font-size: 18px;
+       font-size: 18px;
         margin: 20px 0 12px 0;
         text-align: center;
     }
@@ -251,5 +251,24 @@ a{
         margin: 12px 0;
         text-align: left;
     }
+
+    .pie-premios {
+        margin-top: 40px;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .logos-premios {
+        text-align: center;
+        padding: 0 20px;
+    }
+    
+    .logos-premios img {
+        max-width: 30px;
+        height: auto;
+        margin: 8px;
+    }
+
   }
 }
