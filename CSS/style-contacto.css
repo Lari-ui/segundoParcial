@@ -267,6 +267,7 @@ a{
     }
     
     .nav-centro-contacto {
+        display: none;
         gap: 10px;
         width: 100%;
     }
