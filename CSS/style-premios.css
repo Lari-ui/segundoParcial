@@ -155,13 +155,12 @@ a{
     .nav-centro-premios {
         display: none;
         position: absolute;
-        top: 100%;
+        top: 150%;
         left: 0;
         right: 0;
         flex-direction: column;
         padding: 20px 0;
         z-index: 1000;
-        list-style: none;
     }
     
     .nav-principal-premios {
@@ -173,6 +172,7 @@ a{
     .nav-centro-premios li {
         margin: 10px 0;
         padding: 10px 20px;
+        list-style: none;
     }
     
     .cuerpo-premios {
