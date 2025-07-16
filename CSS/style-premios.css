@@ -71,7 +71,6 @@ a{
 
 @media screen and (max-width: 768px) {
     .nav-principal-premios {
-        flex-direction: row;
         padding: 10px;
     }
   
