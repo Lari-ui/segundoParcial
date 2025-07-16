@@ -75,8 +75,17 @@ a{
         padding: 10px;
     }
     
+.toggle {
+    display: none; /* Ocultamos el menú */
+}
+
+.burger{
+    display: none;
+}
+
     .nav-centro-premios {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         width: 100%;
     }
     
@@ -87,8 +96,14 @@ a{
     }
     
     .nav-izquierda-premios {
-        height: auto;
+        height: 50px;
         margin-bottom: 20px;
+    }
+
+    .nav-izquierda-premios img{
+        width: 100%;
+        height: auto;
+        max-width: 200px;   
     }
     
     .cuerpo-premios {
