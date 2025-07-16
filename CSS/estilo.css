@@ -176,8 +176,7 @@ a{
         margin-bottom: 20px;
     }
 
-    .TRAILER iframe,
-    .TRAILER video {
+    .TRAILER iframe {
         width: 100%;
         max-width: 500px;
         height: auto;
@@ -313,8 +312,7 @@ a{
         margin-bottom: 15px;
     }
 
-     .TRAILER iframe,
-    .TRAILER video {
+     .TRAILER iframe{
         width: 100%;
         max-width: 100%;
         height: auto;
