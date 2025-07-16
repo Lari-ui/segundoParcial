@@ -147,6 +147,11 @@ a{
         padding: 10px;
     }
     
+    #toggle:checked + .burger + .nav-centro-premios {
+        display: flex;
+        flex-direction: column;
+    }
+
     .nav-centro-premios {
         display: none;
         position: absolute;
