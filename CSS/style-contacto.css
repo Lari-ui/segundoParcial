@@ -108,6 +108,21 @@ a{
         font-size: small;
     }
     
+ #toggle:checked + .burger + .nav-centro-premios {
+        display: none;
+    }
+
+    #toggle {
+        display: none;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+    }
+
+    .burger{
+    display: none;
+    }
+
     .contenido-contacto {
         width: 95%;
         margin: 0 auto;
@@ -157,7 +172,6 @@ a{
         margin: 15px 0;
     }
     
-    /* Formulario responsive para tablet */
     .formulario-contacto {
         max-width: 90%;
         margin: 25px auto;
@@ -248,17 +262,6 @@ a{
         margin-right: 20px;
         color: white;
     }
-
-   /* label {
-        text-align: right; 
-        position: absolute; 
-        right: 15px; 
-        top: 50%;
-        transform: translateY(-50%); 
-        z-index: 1000; 
-        margin-right: 20px;
-        color: white;
-    }*/
 
     .contenido-contacto {
         width: 98%;
