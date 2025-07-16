@@ -234,19 +234,19 @@ a{
     }
     
     .cuerpo-premios h1 {
-        font-size: 20px;
+        font-size: medium;
         margin-bottom: 25px;
         text-align: center;
     }
     
     .cuerpo-premios h2 {
-       font-size: 18px;
+       font-size: medium;
         margin: 20px 0 12px 0;
         text-align: center;
     }
     
     .cuerpo-premios p {
-        font-size: 13px;
+        font-size: medium;
         line-height: 1.4;
         margin: 12px 0;
         text-align: left;
