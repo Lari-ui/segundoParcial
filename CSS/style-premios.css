@@ -203,10 +203,9 @@ a{
         justify-content: left;
     }
     
-  /*  .nav-centro-premios {
+    .nav-centro-premios {
         flex-direction: column;
-        gap: 10px;
-        width: 100%;
+        padding: 15px 10px;
     }
     
     .nav-centro-premios li {
@@ -214,7 +213,7 @@ a{
         text-align: center;
         width: 100%;
         font-size: 14px;
-    }*/
+    }
     
     .nav-izquierda-premios {
         height: 45px;
